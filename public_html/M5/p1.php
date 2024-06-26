@@ -28,7 +28,7 @@ function processBirds($birds) {
     $subset = []; // result array
     // Start edits
     foreach($birds as $b) {
-        $subset[] [
+        $subset[] = [
             "name" => $b["name"],
             "color" => $b["color"],
             "region" => $b["region"]
