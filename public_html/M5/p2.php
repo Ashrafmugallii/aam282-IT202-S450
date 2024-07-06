@@ -29,6 +29,7 @@ function processCars($cars) {
     $processedCars = []; // result array
     $classic_age = 25; // don't change this value
     // Start edits
+    //aam282 06/25/24
     foreach ($cars as $c) {
         $age = $currentYear - $c["year"];
         $isClassic = $age >= $classic_age;

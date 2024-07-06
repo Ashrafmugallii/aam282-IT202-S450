@@ -27,6 +27,7 @@ function processBirds($birds) {
     // TODO add logic here to create a new array with only name, color, and region
     $subset = []; // result array
     // Start edits
+    //aam282 6/25/24
     foreach($birds as $b) {
         $subset[] = [
             "name" => $b["name"],
