@@ -11,11 +11,7 @@ require(__DIR__ . "/../../partials/nav.php");
         <label for="pw">Password</label>
         <input type="password" id="pw" name="password" required minlength="8" />
     </div>
-    <div>
-        <label for="confirm">Confirm</label>
-        <input type="password" name="confirm" required minlength="8" />
-    </div>
-    <input type="submit" value="Register" />
+    <input type="submit" value="login" />
 </form>
 <script>
     function validate(form) {
@@ -28,10 +24,10 @@ require(__DIR__ . "/../../partials/nav.php");
 
 <?php
  //TODO 2: add PHP Code
- if(isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm"])){
+ if(isset($_POST["email"]) && isset($_POST["password"])){
     $email = se($_POST, "email", "", false);//$_POST["email"];
     $password = se($_POST, "password", "", false); //$_POST["password"];
-    $confirm = se($_POST, "confirm", "", false);//$_POST["confirm"];
+    
 
 
     //TODO 3:
@@ -53,34 +49,40 @@ require(__DIR__ . "/../../partials/nav.php");
         $hasError = true;
     }
 
-    if(empty($confirm)){
-        echo "must confirm password <br> ";
-        $hasError = true;
-    }
 
     if(strlen($password) < 8){
         echo "password must be 8 at least 8 characters <br> ";
         $hasError = true;
     }
 
-    if(strlen($password) > 0 && $password !== $confirm){
-        echo "password must match <br> ";
-        $hasError = true;
-    }
 
     if(!$hasError){
        // echo "Welcome in, ", $email;
        //TODO 4: hash pass
-       $hash = password_hash($password, PASSWORD_BCRYPT);
+     
        $db = getDB();
-       $stmt = $db->prepare("INSERT INTO Users(email, password) VALUES (:email, :password)");
+       $stmt = $db->prepare("SELECT email, password from Users where email = :email");
        try {
-        $r = $stmt->execute([":email"=>$email, ":password"=>$hash]);
-        echo "success!";
-       }catch (Exception $e){
-        echo "there was an error registering";
-        echo "<pre>" . var_export($e, true) . "</pre>";
-    }
+           $r = $stmt->execute([":email" => $email]);
+           if ($r) {
+               $user = $stmt->fetch(PDO::FETCH_ASSOC);
+               if ($user) {
+                   $hash = $user["password"];
+                   unset($user["password"]);
+                   if (password_verify($password, $hash)) {
+                       echo "Welcome $email"; 
+                       $_SESSION["user"] = $user;
+                       die(header("Location: home.php"));
+                   } else {
+                       echo "Invalid password";
+                   }
+               } else {
+                   echo "Email not found";
+               }
+           }
+       } catch (Exception $e) {
+           echo "<pre>" . var_export($e, true) . "</pre>";
+       }
 
  }
 }
