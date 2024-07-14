@@ -63,7 +63,7 @@ require(__DIR__ . "/../../partials/nav.php");
 
 
     if(!$hasError){
-       // flash("Welcome in, ", $emai");
+       flash("Welcome in, ", $email);
        //TODO 4: hash pass
      
        $db = getDB();
