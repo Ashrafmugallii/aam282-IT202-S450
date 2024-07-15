@@ -23,38 +23,39 @@ reset_session();
 </form>
 <script>
     function validate(form) {
-        //TODO 1: implement JavaScript validation
-        //ensure it returns false for an error and true for success
+    //TODO 1: implement JavaScript validation
+    //ensure it returns false for an error and true for success
 
-        let email = form.email.value;
-        let username = form.username.value;
-        let password = form.password.value;
-        let confirm = form.confirm.value;
+    let email = form.email.value;
+    let username = form.username.value;
+    let password = form.password.value;
+    let confirm = form.confirm.value;
 
-        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailPattern.test(email)) {
-            alert("Invalid email address");
-            return false;
-        }
-
-        let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
-        if (!usernamePattern.test(username)) {
-            alert("Username must only contain 3-16 characters a-z, 0-9, _, or -");
-            return false;
-        }
-
-        if (password.length < 8) {
-            alert("Password must be at least 8 characters long");
-            return false;
-        }
-
-        if (password !== confirm) {
-            alert("Passwords must match");
-            return false;
-        }
-
-        return true;
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+        flash("Invalid email address", "danger");
+        return false;
     }
+
+    let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
+    if (!usernamePattern.test(username)) {
+        flash("Username must only contain 3-16 characters a-z, 0-9, _, or -", "danger");
+        return false;
+    }
+
+    if (password.length < 8) {
+        flash("Password must be at least 8 characters long", "danger");
+        return false;
+    }
+
+    if (password !== confirm) {
+        flash("Passwords must match", "danger");
+        return false;
+    }
+
+    return true;
+}
+
 </script>
 <?php
 //TODO 2: add PHP Code
