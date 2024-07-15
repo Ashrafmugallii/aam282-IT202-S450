@@ -5,7 +5,7 @@ reset_session();
 <form onsubmit="return validate(this)" method="POST">
     <div>
         <label for="email">Email</label>
-        <input type="email" name="email" required />
+        <input type="text" name="email" required />
     </div>
     <div>
         <label for="username">Username</label>
@@ -23,38 +23,51 @@ reset_session();
 </form>
 <script>
     function validate(form) {
-    //TODO 1: implement JavaScript validation
-    //ensure it returns false for an error and true for success
+        //TODO 1: implement JavaScript validation
+        //ensure it returns false for an error and true for success
 
-    let email = form.email.value;
-    let username = form.username.value;
-    let password = form.password.value;
-    let confirm = form.confirm.value;
+        let email = form.email.value;
+        let username = form.username.value;
+        let password = form.password.value;
+        let confirm = form.confirm.value;
 
-    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(email)) {
-        flash("Invalid email address", "danger");
-        return false;
+        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
+        let errors = [];
+
+        if (!emailPattern.test(email)) {
+            errors.push("Invalid email address");
+        }
+
+        if (!usernamePattern.test(username)) {
+            errors.push("Username must only contain 3-16 characters a-z, 0-9, _, or -");
+        }
+
+        if (password.length < 8) {
+            errors.push("Password must be at least 8 characters long");
+        }
+
+        if (password !== confirm) {
+            errors.push("Passwords must match");
+        }
+
+        if (errors.length > 0) {
+            let flashContainer = document.getElementById("flash");
+            flashContainer.innerHTML = "";
+            errors.forEach(error => {
+                let flashMessage = document.createElement("div");
+                flashMessage.className = "alert alert-danger";
+                flashMessage.role = "alert";
+                flashMessage.innerText = error;
+                flashContainer.appendChild(flashMessage);
+            });
+            return false;
+        }
+
+
+        return true;
     }
-
-    let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
-    if (!usernamePattern.test(username)) {
-        flash("Username must only contain 3-16 characters a-z, 0-9, _, or -", "danger");
-        return false;
-    }
-
-    if (password.length < 8) {
-        flash("Password must be at least 8 characters long", "danger");
-        return false;
-    }
-
-    if (password !== confirm) {
-        flash("Passwords must match", "danger");
-        return false;
-    }
-
-    return true;
-}
+</script>
 
 </script>
 <?php
