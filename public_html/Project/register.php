@@ -26,6 +26,33 @@ reset_session();
         //TODO 1: implement JavaScript validation
         //ensure it returns false for an error and true for success
 
+        let email = form.email.value;
+        let username = form.username.value;
+        let password = form.password.value;
+        let confirm = form.confirm.value;
+
+        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            alert("Invalid email address");
+            return false;
+        }
+
+        let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
+        if (!usernamePattern.test(username)) {
+            alert("Username must only contain 3-16 characters a-z, 0-9, _, or -");
+            return false;
+        }
+
+        if (password.length < 8) {
+            alert("Password must be at least 8 characters long");
+            return false;
+        }
+
+        if (password !== confirm) {
+            alert("Passwords must match");
+            return false;
+        }
+
         return true;
     }
 </script>
