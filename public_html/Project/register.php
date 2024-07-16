@@ -5,7 +5,7 @@ reset_session();
 <form onsubmit="return validate(this)" method="POST">
     <div>
         <label for="email">Email</label>
-        <input type="text" name="email" required />
+        <input type="email" name="email" required />
     </div>
     <div>
         <label for="username">Username</label>
@@ -23,22 +23,21 @@ reset_session();
 </form>
 <script>
     function validate(form) {
-        //TODO 1: implement JavaScript validation
-        //ensure it returns false for an error and true for success
+        // TODO 1: implement JavaScript validation
+        // ensure it returns false for an error and true for success
 
+        let errors = [];
         let email = form.email.value;
         let username = form.username.value;
         let password = form.password.value;
         let confirm = form.confirm.value;
 
         let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
-        let errors = [];
-
         if (!emailPattern.test(email)) {
             errors.push("Invalid email address");
         }
 
+        let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
         if (!usernamePattern.test(username)) {
             errors.push("Username must only contain 3-16 characters a-z, 0-9, _, or -");
         }
@@ -52,23 +51,22 @@ reset_session();
         }
 
         if (errors.length > 0) {
-            let flashContainer = document.getElementById("flash");
-            flashContainer.innerHTML = "";
-            errors.forEach(error => {
-                let flashMessage = document.createElement("div");
-                flashMessage.className = "alert alert-danger";
-                flashMessage.role = "alert";
-                flashMessage.innerText = error;
-                flashContainer.appendChild(flashMessage);
-            });
+            displayErrors(errors);
             return false;
         }
 
-
         return true;
     }
-</script>
 
+    function displayErrors(errors) {
+        let errorDiv = document.getElementById("error-messages");
+        errorDiv.innerHTML = "";
+        errors.forEach(error => {
+            let errorParagraph = document.createElement("p");
+            errorParagraph.textContent = error;
+            errorDiv.appendChild(errorParagraph);
+        });
+    }
 </script>
 <?php
 //TODO 2: add PHP Code

@@ -14,37 +14,43 @@ require(__DIR__ . "/../../partials/nav.php");
 </form>
 <script>
     function validate(form) {
-        //TODO 1: implement JavaScript validation
-        //ensure it returns false for an error and true for success
+        // TODO 1: implement JavaScript validation
+        // ensure it returns false for an error and true for success
 
+        let errors = [];
         let email = form.email.value;
-        let username = form.username.value;
         let password = form.password.value;
-        let confirm = form.confirm.value;
 
-        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailPattern.test(email)) {
-            flash("Invalid email address", "danger");
-            return false;
+        // Email/Username validation
+        if (email.trim() === "") {
+            errors.push("Email/Username must not be empty");
+        } else {
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
+            if (!emailPattern.test(email) && !usernamePattern.test(email)) {
+                errors.push("Invalid email address or username");
+            }
         }
 
-        let usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
-        if (!usernamePattern.test(username)) {
-            flash("Username must only contain 3-16 characters a-z, 0-9, _, or -", "danger");
-            return false;
-        }
-
+        // Password validation
         if (password.length < 8) {
-            flash("Password must be at least 8 characters long", "danger");
-            return false;
+            errors.push("Password must be at least 8 characters long");
         }
 
-        if (password !== confirm) {
-            flash("Passwords must match", "danger");
-            return false;
-        }
+        // Display errors
+        displayErrors(errors);
 
-        return true;
+        return errors.length === 0;
+    }
+
+    function displayErrors(errors) {
+        let errorDiv = document.getElementById("error-messages");
+        errorDiv.innerHTML = "";
+        errors.forEach(error => {
+            let errorParagraph = document.createElement("p");
+            errorParagraph.textContent = error;
+            errorDiv.appendChild(errorParagraph);
+        });
     }
 </script>
 <?php
