@@ -2,8 +2,7 @@
 /*put this at the bottom of the page so any templates
  populate the flash variable and then display at the proper timing*/
 ?>
-<div class="container" id="flash">
-    <?php $messages = getMessages(); ?>
+<div class="container" id="flash" style="position: relative; z-index: 1050; margin-top: 70px;">    <?php $messages = getMessages(); ?>
     <?php if ($messages) : ?>
         <?php foreach ($messages as $msg) : ?>
             <div class="row justify-content-center">
@@ -23,3 +22,20 @@
 
     moveMeUp(document.getElementById("flash"));
 </script>
+<style>
+    .alert-success {
+        background-color: green
+    }
+
+    .alert-warning {
+        background-color: yellow;
+    }
+
+    .alert-danger {
+        background-color: red;
+    }
+
+    .alert-info {
+        background-color: teal;
+    }
+</style>
