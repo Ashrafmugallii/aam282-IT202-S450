@@ -2,6 +2,7 @@
 require(__DIR__ . "/../../partials/nav.php");
 reset_session();
 ?>
+    <link rel="stylesheet" href="styles.css">
 
 <form onsubmit="return validate(this)" method="POST">
     <div>
