@@ -18,3 +18,4 @@ else{
 
 require(__DIR__."/../../partials/flash.php");
 ?>
+<link rel="stylesheet" href="styles.css">
