@@ -1,5 +1,5 @@
 <?php
-require(__DIR__ . "/../../partials/nav.php");
+require(__DIR__ . "/../../../partials/nav.php");
 reset_session();
 ?>
 <!DOCTYPE html>
@@ -111,6 +111,6 @@ reset_session();
         }
     }
     ?>
-    <?php require(__DIR__ . "/../../partials/flash.php"); ?>
+    <?php require(__DIR__ . "/../../../partials/flash.php"); ?>
 </body>
 </html>
