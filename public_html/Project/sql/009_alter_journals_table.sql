@@ -1,0 +1,7 @@
+ALTER TABLE Journals
+ADD COLUMN trip_start_date DATE DEFAULT '1970-01-01',
+ADD COLUMN trip_end_date DATE DEFAULT '1970-01-01';
+
+ALTER TABLE Journals
+MODIFY COLUMN trip_start_date DATE NOT NULL,
+MODIFY COLUMN trip_end_date DATE NOT NULL;

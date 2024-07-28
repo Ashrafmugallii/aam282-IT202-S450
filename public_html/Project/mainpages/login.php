@@ -55,14 +55,7 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
         flash("Email must be provided <br>");
         $hasError = true;
     }
-    //sanitize
-    //$email = filter_var($email, FILTER_SANITIZE_EMAIL);
-   
-    //validate
-    /*if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        flash("Please enter a valid email <br>");
-        $hasError = true;
-    }*/
+
     if (str_contains($email, "@")) {
         //sanitize
         //$email = filter_var($email, FILTER_SANITIZE_EMAIL);
