@@ -1,18 +1,18 @@
 <?php
 require(__DIR__ . "/../../../partials/nav.php");
 
-// Handle form submission
+// handling the form submission 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $user_id = get_user_id(); // Function to get the logged-in user ID
-    $name = $_POST['name'];
-    $from_airport_code = $_POST['from_airport_code'];
-    $to_airport_code = $_POST['to_airport_code'];
+    $user_id = get_user_id(); // logged-in user ID
+    $name = $_POST['name']; //the journal name using POST
+    $from_airport_code = $_POST['from_airport_code']; //get from airport code
+    $to_airport_code = $_POST['to_airport_code']; //to airport code
     $trip_start_date = $_POST['trip_start_date'];
     $trip_end_date = $_POST['trip_end_date'];
-    $content = $_POST['content'];
-    $photos = $_POST['photos']; // Assuming photos are uploaded and processed separately
+    $content = $_POST['content']; // info about the trip aka summary
+    $photos = $_POST['photos']; //photos are uploaded and processed separately
 
-    // Validate inputs
+    //  inputs validation
     $errors = [];
     if (empty($name)) {
         $errors[] = "Name is required.";
@@ -30,9 +30,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errors[] = "Content is required.";
     }
 
-    // If no errors, insert into database
+    // If no errors, insert the data into tghe database
     if (empty($errors)) {
-        $db = getDB();
+        $db = getDB(); //get db conn
         $stmt = $db->prepare("INSERT INTO Journals (user_id, name, from_airport_code, to_airport_code, trip_start_date, trip_end_date, content, photos, created, modified) VALUES (:user_id, :name, :from_airport_code, :to_airport_code, :trip_start_date, :trip_end_date, :content, :photos, NOW(), NOW())");
         $stmt->bindParam(':user_id', $user_id);
         $stmt->bindParam(':name', $name);
@@ -44,8 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt->bindParam(':photos', $photos);
 
         if ($stmt->execute()) {
-            $journal_id = $db->lastInsertId();
-            header("Location: addJournalDetails.php?journal_id=$journal_id");
+            $journal_id = $db->lastInsertId(); //storing most recent journal id 
+            header("Location: addJournalDetails.php?journal_id=$journal_id"); //redirecting to the page where the user can enter details about trip
             exit;
         } else {
             flash("Error creating journal.", "danger");
@@ -57,11 +57,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 
-// Fetch cached airports for dropdown
+// Fetch cached airports for the dropdown
 $db = getDB();
-$stmt = $db->prepare("SELECT code, display_name FROM AirportCache");
+$stmt = $db->prepare("SELECT code, display_name FROM AirportCache ORDER BY display_name");
 $stmt->execute();
-$airports = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$airports = $stmt->fetchAll(PDO::FETCH_ASSOC); //getting all airports
 ?>
 
 <div class="container-fluid">
@@ -76,26 +76,25 @@ $airports = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <select id="from_airport_dropdown" name="from_airport_code_dropdown" onchange="setFromAirportCode()">
                 <option value="">Select from existing airports</option>
                 <?php foreach ($airports as $airport): ?>
-                    <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?> (<?php echo $airport['code']; ?>)</option>
+                    <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?></option>
                 <?php endforeach; ?>
             </select>
-            <input type="text" id="from_location" name="from_location" placeholder="Or type location..." />
-            <button type="button" onclick="fetchFromAirports()">Fetch Airports</button>
             <input type="hidden" id="from_airport_code" name="from_airport_code" />
-            <div id="from_airport_list"></div>
         </div>
         <div>
             <label>To Location</label>
             <select id="to_airport_dropdown" name="to_airport_code_dropdown" onchange="setToAirportCode()">
                 <option value="">Select from existing airports</option>
                 <?php foreach ($airports as $airport): ?>
-                    <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?> (<?php echo $airport['code']; ?>)</option>
+                    <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?></option>
                 <?php endforeach; ?>
             </select>
-            <input type="text" id="to_location" name="to_location" placeholder="Or type location..." />
-            <button type="button" onclick="fetchToAirports()">Fetch Airports</button>
             <input type="hidden" id="to_airport_code" name="to_airport_code" />
-            <div id="to_airport_list"></div>
+        </div>
+        <div>
+            <input type="text" id="location" placeholder="Type location..." />
+            <button type="button" onclick="fetchAirports()">Fetch Airports</button>
+            <div id="fetched_airports_list"></div>
         </div>
         <div>
             <label>Trip Dates</label>
@@ -129,48 +128,53 @@ function setToAirportCode() {
     document.getElementById('to_airport_code').value = code;
 }
 
-function fetchFromAirports() {
-    var query = document.getElementById('from_location').value;
-    if (query.length >= 3) {
-        fetch('fetchAirports.php?query=' + query + '&type=from')
-            .then(response => response.json())
-            .then(data => {
-                var fromAirportList = document.getElementById('from_airport_list');
-                fromAirportList.innerHTML = '';
-                data.forEach(airport => {
-                    var option = document.createElement('div');
-                    option.textContent = `${airport.name} (${airport.airportCode})`;
-                    option.addEventListener('click', function() {
-                        document.getElementById('from_location').value = airport.name;
-                        document.getElementById('from_airport_code').value = airport.airportCode;
-                        fromAirportList.innerHTML = '';
-                    });
-                    fromAirportList.appendChild(option);
-                });
-            });
-    }
-}
+function fetchAirports() {
+    var query = document.getElementById('location').value;
+    console.log('Fetching airports with query:', query);
+    fetch('fetchAirports.php?query=' + query)
+        .then(response => response.text())
+        .then(text => {
+            console.log('Response text:', text);
+            try {
+                var data = JSON.parse(text);
+            } catch (e) {
+                throw new Error('Failed to parse JSON: ' + e.message);
+            }
+            console.log('Response data:', data);
+            if (data.error) {
+                alert('Error fetching airports: ' + data.error);
+                return;
+            }
+            var fromAirportDropdown = document.getElementById('from_airport_dropdown');
+            var toAirportDropdown = document.getElementById('to_airport_dropdown');
+            var fetchedAirportsList = document.getElementById('fetched_airports_list');
+            fetchedAirportsList.innerHTML = '<strong>Fetched airports:</strong>';
+            var newOptions = [];
 
-function fetchToAirports() {
-    var query = document.getElementById('to_location').value;
-    if (query.length >= 3) {
-        fetch('fetchAirports.php?query=' + query + '&type=to')
-            .then(response => response.json())
-            .then(data => {
-                var toAirportList = document.getElementById('to_airport_list');
-                toAirportList.innerHTML = '';
-                data.forEach(airport => {
-                    var option = document.createElement('div');
-                    option.textContent = `${airport.name} (${airport.airportCode})`;
-                    option.addEventListener('click', function() {
-                        document.getElementById('to_location').value = airport.name;
-                        document.getElementById('to_airport_code').value = airport.airportCode;
-                        toAirportList.innerHTML = '';
-                    });
-                    toAirportList.appendChild(option);
-                });
+            data.forEach(airport => {
+                var option = document.createElement('div');
+                option.textContent = `${airport.name} (${airport.airportCode})`;
+                fetchedAirportsList.appendChild(option);
+
+                var dropdownOption = document.createElement('option');
+                dropdownOption.value = airport.airportCode;
+                dropdownOption.textContent = airport.name;
+                newOptions.push(dropdownOption);
             });
-    }
+
+            newOptions.sort((a, b) => a.textContent.localeCompare(b.textContent));
+
+            newOptions.forEach(option => {
+                fromAirportDropdown.appendChild(option.cloneNode(true));
+                toAirportDropdown.appendChild(option.cloneNode(true));
+            });
+
+            alert('Airports successfully fetched and updated.');
+        })
+        .catch(error => {
+            console.error('Error fetching airports:', error);
+            alert('Error fetching airports: ' + error.message);
+        });
 }
 </script>
 

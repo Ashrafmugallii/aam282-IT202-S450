@@ -45,6 +45,8 @@ session_start();
                     <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/createJournal.php'); ?>">Create Journal</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/exploreJournals.php'); ?>">Explore Journals</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/searchFlights.php'); ?>">Search flights</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/listJournals.php'); ?>">My Journals</a></li>
+
 
 
                 <?php endif; ?>
