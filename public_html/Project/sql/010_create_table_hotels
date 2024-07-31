@@ -1,0 +1,38 @@
+CREATE TABLE Locations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    document_id VARCHAR(255) UNIQUE NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    secondary_text VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Hotels (
+    hotel_id VARCHAR(255) PRIMARY KEY,
+    title VARCHAR(255),
+    primary_info TEXT,
+    secondary_info TEXT,
+    rating_count INT,
+    rating FLOAT,
+    provider VARCHAR(255),
+    price_display VARCHAR(255),
+    price_details TEXT,
+    price_summary TEXT,
+    commerce_info TEXT,
+    image_url_1 TEXT,
+    image_url_2 TEXT,
+    image_url_3 TEXT,
+    image_url_4 TEXT,
+    location_id VARCHAR(255),
+    description TEXT,
+    amenities TEXT
+);
+
+
+CREATE TABLE IF NOT EXISTS `Locations` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `title` VARCHAR(255) NOT NULL,
+    `geo_id` VARCHAR(255) NOT NULL,
+    `secondary_text` VARCHAR(255) NOT NULL
+);
+

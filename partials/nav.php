@@ -34,25 +34,25 @@ session_start();
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="<?php echo get_url('/../Project/mainpages/home.php'); ?>">Voyagr</a>
+        <a class="navbar-brand" href="<?php echo get_url('/../public_html/Project/mainpages/home.php'); ?>">Voyagr</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <?php if (is_logged_in()) : ?>
-                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/mainpages/profile.php'); ?>">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/featuresPages/createJournal.php'); ?>">Create Journal</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/featuresPages/exploreJournals.php'); ?>">Explore Journals</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/featuresPages/searchFlights.php'); ?>">Search flights</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/featuresPages/listJournals.php'); ?>">My Journals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/mainpages/profile.php'); ?>">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/createJournal.php'); ?>">Create Journal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/exploreJournals.php'); ?>">Explore Journals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/searchFlights.php'); ?>">Search flights</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/featuresPages/listJournals.php'); ?>">My Journals</a></li>
 
 
 
                 <?php endif; ?>
                 <?php if (!is_logged_in()) : ?>
-                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/mainpages/login.php'); ?>">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/mainpages/register.php'); ?>">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/mainpages/login.php'); ?>">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/mainpages/register.php'); ?>">Register</a></li>
                 <?php endif; ?>
 
 

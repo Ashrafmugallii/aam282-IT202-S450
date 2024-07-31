@@ -1,0 +1,3526 @@
+Properties in New Brunswick sorted by <span class="underline">best value</span>Array
+(
+    [title] => No other places to stay in New Brunswick have availability from our partners.
+    [message] => We found these other options sorted by best value
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 92475
+            [title] => 1. The Heldrich Hotel & Conference Center
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 1,085
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $190
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 7 deals from $175
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3449
+                                    [maxWidth] => 5007
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/3e/34/b0/the-heldrich-hotel-conference.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1000
+                                    [maxWidth] => 1500
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ee/96/5f/the-heldrich-hotel-conference.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1000
+                                    [maxWidth] => 1500
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ee/96/28/christopher-s.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1000
+                                    [maxWidth] => 1500
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ee/96/42/the-heldrich-hotel-conference.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=32501396&geo=92475&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=10476&bucket=902999&nrank=2&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=VEs2NC3rxSlfF0ArC2jeI1xCMBAbivdVVE5EqnIQCAowjAGWspkfxd_Q9E8ZTxhdKyFuJzgQUR4NrhrwX3QyGJd5oUcayWW4DersA3wNbIXAC7SindAocSfI2AFw7qhzxcLN0sfNqrSWAO4bhhdQfn9wo1gkjLiyf8ipjaDSUx2WeoZKAcqH0HYYl-JPEtw0VBz-yx_o5ZKnVf3kXuAT9by8leHDS8EJ3ZzCu9Q2oMd1B5TRLwsqGZLkvfKFf6zIFR7Lg2mBHnJ-L7AXdTWLwg&priceShown=189&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1400&rq=P&rate=161.4900&taxesRate=27.6900&feesRate=0&fees=27.6900&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_1ebdab8362fa06c053dd8a7a785d2a2d&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=08c39fd1-505c-49cf-b7dc-aa471a7f77f6&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=130ebc7567fb38b30639bad1862d0b71b&ik=3625af5db17646ecafcc3bfa47247b8a&aok=9fcd04be38d5434e9132ae959c2ddcd8&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $190
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $175
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 23284139
+            [title] => 2. Home2 Suites by Hilton New Brunswick
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 55
+                    [rating] => 4.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 19% LESS THAN USUAL
+            [provider] => Vio.com
+            [priceForDisplay] => $150
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $145
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/6c/da/c2/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/6c/da/ec/guest-room-amenity.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/6c/da/eb/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/6c/da/e9/guest-room-amenity.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=240779170&geo=23284139&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997778&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=YbdsCdp2Em4DADCGrsxrrjFeFDOrU7kwtkPyTriv96Vk_auld8IuFjfchyqs1k3ErUGoGRedLxHRk8JHvBhhmwPSTjX8CbjB-J18i2H5w1oww-gkofdQfpx7QNVfbYupIb4V1RvwzmZRf8gEQJmNJJjn-KSx7CY6c9hvX-YtJGWjKjM4DoNBB2SMQkdDONvIFP5nGoQYG5i8XtlXl5ecKg_yKuCtsHkKOfMIMxNu-G_oBXI3GQaLGU0iXghg2lmGMxQqz9FYHdFkUC75ltdxET9qqjGWcjUqP5UgrZ2LOs_YNkADGCvk_ODAuB9x9F9z&priceShown=150&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=500&rq=P&rate=128.2100&taxesRate=21.3800&feesRate=0&fees=21.3800&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_37ea45e0d2a31a9e0607e3463c557d24&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=b4c58d47-8760-4041-84e3-70016ac19ec1&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1e528e5b7550fa3989c6336f64bf84967&ik=3625af5db17646ecafcc3bfa47247b8a&aok=fcda2bfe55d842e69d78bea19d8c8866&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $150
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $145
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 123666
+            [title] => 3. Motel 6 New Brunswick NJ
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 13
+                    [rating] => 3
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $105
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $105
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e7/46/62/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e7/46/7d/vending.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e7/46/7c/laundry.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e7/46/7e/laundry.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=241378683&geo=123666&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997778&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=ca-bG5viROYO8JAZB9iqTDFeFDOrU7kwtkPyTriv96WwHjkAphVJcGCtthXrQDpCsgZNAV5IfeUWmRx1_2kpXa8wgK33CGzEwbQtR2jWZ_AAaE6l1IkOSCfUs_9hwUI0xPlZDqWQFdDgWQPL10HPtwW33rFe0wCu2CZZFYxFe7pTnnkFrT_gEGiiDiw5RxK1Y4-zl38WjEWsHyxSakESti9H5UDOSIwq9NR5IwDc_Q5F9H8VNyIQLuDMVcLOLjIEd2EpBEKysyBlF7cw6IDJoSQZkdoYMDvX8lHfa7vfojoi_qpUdlVSLrD8o_kvO7wL&priceShown=105&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=91.4200&taxesRate=13.3600&feesRate=0&fees=13.3600&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_7707c2afb9dc454ad24614df97698f95&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=abc31434-5ca7-4b90-92b6-169ec0913db4&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=103ea199a216053ad997ec4682aedce31&ik=3625af5db17646ecafcc3bfa47247b8a&aok=5d6f7d9e10f64e409e54735cbfabe949&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $105
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $105
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 23228608
+            [title] => 4. Residence Inn by Marriott New Brunswick Tower Center Blvd.
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 29
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Marriott
+            [priceForDisplay] => $172
+            [strikethroughPrice] => 
+            [priceDetails] => Reserve now, pay at stay
+            [priceSummary] => View all 7 deals from $160
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/17/45/8c/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 250
+                                    [maxWidth] => 375
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/02/51/8b/take-the-stress-out-of.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/73/67/4b/egg-ham-cheese-on-croissant.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/73/67/4c/the-morning-mix.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Marriott1&src=202924295&geo=23228608&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=31879&bucket=1016553&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=true&capped=false&gosox=lQY_rO_wjI5FQH7tg8vv2hyEho-G6VWheiTeU8rdn5VS4wG37VXg85Ydc3y0XVwlxFDD8nxqxw8UJUEQwS_ItKzPDdZ31LVyt4HaouAvrG5L_lyXPpBFdW9GUjFBQM7fLIOvwikCyFBI9ShxVqpIh4dF5VPyhy9HrtSUwdL8grlJn2EAy2LixLm2K5lm6DsAi_mHiCYG-vOxPOJKLBY75vcHCJ_3hLQPDld7BWOHst51kZJuOSiWEhllBv8V_6zM-3ksisJdkI9T8t7S4IgNkm3HfMVqHoPpi_1FDQltdZc6SlQ1R7EebXqFcYYpY9eF&priceShown=171&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1100&rq=P&rate=149.4300&taxesRate=21.8500&feesRate=0&fees=21.8500&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=a5570a1e-a928-48a2-91d4-5e151501a229&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=19aadfdf73bb38a9b4bc0bff3dd3aa936&ik=3625af5db17646ecafcc3bfa47247b8a&aok=c588c665411e4541a2725f78b9999ffe&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Marriott
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $172
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Reserve now, pay at stay
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $160
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 92478
+            [title] => 5. Hyatt Regency New Brunswick
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 1,612
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $265
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation • Reserve now, pay at stay
+            [priceSummary] => View all 6 deals from $247
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 711
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/22/f4/54/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 750
+                                    [maxWidth] => 1079
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/4f/5a/f1/hyatt-regency-new-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1748
+                                    [maxWidth] => 2621
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/14/59/9e/city-views.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1748
+                                    [maxWidth] => 2621
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/14/59/9d/river-views.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=58131375&geo=92478&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=902999&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=R0dY0zxxIIxUjdy0gPlPzVxCMBAbivdVVE5EqnIQCApmsn4q2Po5Q0MO3CGnyjo0PynuYdU0iIZQV-RqKdR0-6Zr0OBMqEroryphpWgt-DNXyEI9apKW3G4GvfYp03BXDLqULnuLdYZX19RAjvpAgmxYkz105c_hAedCRlSf-yqvOTyDCGU1sGJupPmFcRlajbYOD6R3jm7Au2LQwFyEtZ8wyq8PGST1s2qaR4mH_PrLO_GlPSN63Zcb90ubbsjketd9k3HoPF6Njn-U9xMwfQ&priceShown=265&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1800&rq=P&rate=230.8400&taxesRate=33.7700&feesRate=0&fees=33.7700&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_5fd2a2256fe5f5a90b9bd804b66af013&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=9fe58c73-87c7-465b-b641-908b581af845&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1126357364b47229c6c9db80f6e935ee8&ik=3625af5db17646ecafcc3bfa47247b8a&aok=1dc8223b51014ff898ebd53a219ce8cc&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $265
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation • Reserve now, pay at stay
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $247
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 92475
+            [title] => The Heldrich Hotel & Conference Center
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 1,085
+                    [rating] => 4
+                )
+
+            [isSponsored] => 1
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $190
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => 
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3449
+                                    [maxWidth] => 5007
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/3e/34/b0/the-heldrich-hotel-conference.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1000
+                                    [maxWidth] => 1500
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ee/96/5f/the-heldrich-hotel-conference.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1000
+                                    [maxWidth] => 1500
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ee/96/28/christopher-s.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1000
+                                    [maxWidth] => 1500
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ee/96/42/the-heldrich-hotel-conference.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=32501396&geo=92475&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995258&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=302298203&managed=false&capped=false&gosox=Lvl9upnlmJQDQyG9zaHAmey1Jfl-D3i75mmEQoABEAtYZS09IWzF5zaI2SFZXCRgpmvQ4EyoSuivKmGlaC34M1fIQj1qkpbcbga99inTcFerXzqFgz0kKMFqFL4qizTO3oXKwyG9D3kXpf4WwWLA3i10axsQ7_ov3Scj5QklQjpiahWtpT8ml7EX2rptuK_jVzqVA4MZGynegKGJsroSdTds-SwEY-ugSKv6NmGNXeG-t8rbLkQtWhpDNqr1DCUW&priceShown=189&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1400&rq=P&rate=161.4900&taxesRate=27.6900&feesRate=0&fees=27.6900&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_1ebdab8362fa06c053dd8a7a785d2a2d&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=842fab53-2437-47c3-a06b-8118fd8be6f4&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1862aee4fb0451473434dbd18934c3bf3&ik=3625af5db17646ecafcc3bfa47247b8a&aok=502d51d85d75471c9561d323982d7e6d&tp=APS-Hotels&pageLocId=46664&area=Spons%7CSpons_Meta_Pref
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $190
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => 
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 98335
+            [title] => 6. Hilton East Brunswick Hotel & Executive Meeting Center
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 1,481
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $162
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 6 deals from $147
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 445
+                                    [maxWidth] => 576
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/64/39/6b/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/1d/af/6b/hilton-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/1d/af/66/hilton-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/1d/af/63/hilton-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=32494676&geo=98335&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=zBT6LzS8MNtNKkIzYF7ry25cjRCBbg8dBWFX_Gjo8WOfT_-cRCvxYutuap2A1ox3D4w26jERx9dWdy2_EHpq9NqDvlFMFDXJM5wyBX72TYglrUyGM9SgHHY5iS5T5_v6vmgtM5rOFyXK2smauheZaVVTe77KL0N69jGLiWfhUfknUivA6WYPVvQE0yNiwW6hNk3popS38ahJTVSgaztYi3WRkm45KJYSGWUG_xX_rMz7eSyKwl2Qj1Py3tLgiA2Sbcd8xWoeg-mL_UUNCW11lzpKVDVHsR5teoVxhilj14U&priceShown=161&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1500&rq=P&rate=140.2100&taxesRate=21.0300&feesRate=0&fees=21.0300&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_36649d62a7c39af0e2e6d1d424a5fc7c&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=462dbff1-b185-40b9-8a45-dfef1911db8c&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1db5c3b2660ac8f1487ee8c262feb1bbb&ik=3625af5db17646ecafcc3bfa47247b8a&aok=f78238365e784680ba014b20dd57108b&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $162
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $147
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 1390202
+            [title] => 7. Hampton Inn North Brunswick/New Brunswick
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 499
+                    [rating] => 4.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $171
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $168
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 733
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f4/7f/09/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 733
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f4/7f/2d/business-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f4/7f/2b/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 733
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f4/7f/27/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=240996023&geo=1390202&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997778&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=iTntKj5FZWNhjFJa-rAv4DFeFDOrU7kwtkPyTriv96VfjpfSlYLGUsDCzgLEimFI82_Uwa5i8dRcS5S3q0-HXK8wgK33CGzEwbQtR2jWZ_AAaE6l1IkOSCfUs_9hwUI0xPlZDqWQFdDgWQPL10HPt5btEzwGn3FbR7qHy-fSIOMgG06hmlpQBB2YEQAPS8hJIy5FsKu_UM8qrnQgoZZqg9NWm6zR5t8AVB5qI9p6Txnov4iV8uCC3tBR-XO-PNVGzYmc-c0JfcHsts6BSsKfRqYFQVfaZ3MW9c6gB0GyrPSQA4o0B-xrs6IEC2TkU0YE&priceShown=171&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=400&rq=P&rate=146.3200&taxesRate=24.4100&feesRate=0&fees=24.4100&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_4bde3fe64fa3e5b4761f7d8ececf247a&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=82336263-5fc1-4f1f-ba5f-5658d51341e8&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1774365a6cef57c1a58eb981d839550f6&ik=3625af5db17646ecafcc3bfa47247b8a&aok=e7969ba87b134dc28c97a36d2017422e&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $171
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $168
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 530316
+            [title] => 8. Holiday Inn Express & Suites Tower Center New Brunswick, an IHG Hotel
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                    [size] => SMALL
+                    [type] => TRAVELLER_CHOICE
+                    [year] => 2024
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 473
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $148
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 7 deals from $123
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5a/0c/18/holiday-inn-express-tower.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5a/0d/bc/holiday-inn-express-tower.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5a/0d/e5/holiday-inn-express-tower.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5a/0d/d1/holiday-inn-express-tower.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=34818465&geo=530316&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=zBT6LzS8MNtNKkIzYF7ry25cjRCBbg8dBWFX_Gjo8WOfT_-cRCvxYutuap2A1ox3Ks2rHgxedjF1h2vayv6rvgvsLLPzJ22ojsMwF5gsWjQlrUyGM9SgHHY5iS5T5_v6QhpsZ6UdhJwKc10wMfS_Tm0_ABu-x_SeGd6SnruMispC2GxIIDJbGjoPU46iCWY1EJ4PpnOQvNAP9G529u8UAXWRkm45KJYSGWUG_xX_rMz7eSyKwl2Qj1Py3tLgiA2Sbcd8xWoeg-mL_UUNCW11lzpKVDVHsR5teoVxhilj14U&priceShown=147&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=2500&rq=P&rate=128.1300&taxesRate=19.2200&feesRate=0&fees=19.2200&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_3c83bb243a5b0426f8ae59a42079aa87&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=85c5b398-8feb-493d-a91c-e35a37b2e76d&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1840492cfbcb54753dba55eaa676d825a&ik=3625af5db17646ecafcc3bfa47247b8a&aok=8f207d92e1b948d5b22abbf99797f7a5&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $148
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $123
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 243742
+            [title] => 9. Studio 6 East Brunswick - NYC Area
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 45
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $109
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $97
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e7/2f/86/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/4b/32/2e/studio-6-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1337
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/4b/39/31/studio-6-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/4b/39/0e/studio-6-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=32484716&geo=243742&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=zBT6LzS8MNtNKkIzYF7ry25cjRCBbg8dBWFX_Gjo8WOfT_-cRCvxYutuap2A1ox3x28X_0SaYz6Vq51yKhff6cpLtkgyyazrSBgappnvf28lrUyGM9SgHHY5iS5T5_v64lKGv1R1w1k8AbRvg5-jNFHm1zT0HnssC73bDXfaJNTk6DT1T7iqcOXluILujo__wstPoqPbhO4Oln4XTwIw8hkw3p2D7kXdIGpg-9ZIKK9jn-ab6YZvjMaYLw5xMAnutnBagWB_102XzZfT0E0ScogFDNamQJWMyAIukW7TrXc&priceShown=109&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1300&rq=P&rate=95.0300&taxesRate=13.9000&feesRate=0&fees=13.9000&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_62e354147de0bb7ce184f714a5fa1670&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=8ac3bc10-e931-4524-b55c-61138353ef8f&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1817d837b7b997a44769220435a70dec0&ik=3625af5db17646ecafcc3bfa47247b8a&aok=714f5befb5574849b803f55a29171b3b&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $109
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $97
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [10] => Array
+        (
+            [id] => 92368
+            [title] => 10. Motel 6 East Brunswick, NJ
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 150
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 17% LESS THAN USUAL
+            [provider] => Vio.com
+            [priceForDisplay] => $89
+            [strikethroughPrice] => $112
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 5 deals from $89
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e6/fd/20/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1332
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/e4/9a/motel-6-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1332
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/e5/69/motel-6-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/e5/34/motel-6-east-brunswick.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=240782676&geo=92368&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=47458&bucket=997363&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=4tntH9jN0-kOBcF5u8Pr3TFeFDOrU7kwtkPyTriv96XBwVNyDwBORDuvJd0gZQCy7cMGIPXbZjMq_PwPhYKiaBYzXOAnGn_Vqe_d5G7vQBf6MwAJ3nahn1Z_yO-G1o6fXZnZDzLssRaT28hCCo-WNGFAo9l6BuKDzpUaLukDLO3HvgansSlPTa95ZmXzAi6sQZZS69Maqr_g0U0SFi5DnbE_42qkGbPalxvtbjucN3--SJBte49c96uzPsWKh6drN2z5LARj66BIq_o2YY1d4b63ytsuRC1aGkM2qvUMJRY&priceShown=88&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=77.0200&taxesRate=11.2700&feesRate=0&fees=11.2700&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_12b130cadbbf5b21da133e123ac655c9&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=524539c2-cb2e-422a-93b1-f06b75c8350d&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=17ba64cbd5024f3d520cf230153cea6bd&ik=3625af5db17646ecafcc3bfa47247b8a&aok=2c7458594b614b6db68092285ac99c87&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $89
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => Array
+                        (
+                            [text] => $112
+                        )
+
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 5 deals from $89
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [11] => Array
+        (
+            [id] => 579634
+            [title] => 11. Comfort Suites
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 169
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $120
+            [strikethroughPrice] => $134
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $120
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/71/1a/31/hotel-exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 819
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/70/fe/96/guest-laundry-facilities.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/70/fe/95/guest-room-with-sofa.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/70/fe/8d/breakfast-bar.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=241056616&geo=579634&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997363&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=b8dGn9OqYXA3kOaBHu044qtgols3TDfMINDavSoc4-ZDNW_7KkPdJHA2OnkNO9G5GuPeiLDc6HqzJ8AVr2PxAhT7EIMoeHE0x6g4YnkfkHrW7aSVdJB_r_syZtCp-6XalPVtssbBvlhLtBiaBUKhpSdDKrs7mD_J5UrpfRdBJ_lh1B9ZEdiG01XFDssHy7npNRXFD0U9nGSyMs7PWEE_2vIdm9Qb-FEOx_UpEefVkESfMMqvDxkk9bNqmkeJh_z6yzvxpT0jet2XG_dLm27I5HrXfZNx6DxejY5_lPcTMH0&priceShown=119&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=103.8800&taxesRate=15.1900&feesRate=0&fees=15.1900&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_2fd9bf27e56f5a775c1e208e0a47c639&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=fc4e683f-5ad6-4828-a84d-f6d7271e153b&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=130bd92d409b599ee17e9f4e73c9c5e95&ik=3625af5db17646ecafcc3bfa47247b8a&aok=dca4592220114039b3c6a05c31baf970&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $120
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => Array
+                        (
+                            [text] => $134
+                        )
+
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $120
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [12] => Array
+        (
+            [id] => 1138541
+            [title] => 12. Crowne Plaza Edison
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 259
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $133
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 7 deals from $115
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2731
+                                    [maxWidth] => 4096
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/36/2f/d6/crowne-plaza-edison.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2800
+                                    [maxWidth] => 4991
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/65/e0/fa/we-are-open.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1336
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/3d/1a/e5/crowne-plaza-edison.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 427
+                                    [maxWidth] => 640
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/ba/82/50/our-beautiful-renovated.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=32501887&geo=1138541&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=5QpJYrnyIvrjWMZi_GmBiW5cjRCBbg8dBWFX_Gjo8WPpYpjA7ObG1tYkjhEeUrvIynDdl6yNHIFI3PsaCDV1xB5FDIIYrYXkw8H2d2jQAYglrUyGM9SgHHY5iS5T5_v6Y4PvPb0OPDGe952vd1JEa5pH8gK9WSjy9311-YkKleZChxlrb6yrwgZp_ftEnJCYEJ4PpnOQvNAP9G529u8UAXWRkm45KJYSGWUG_xX_rMz7eSyKwl2Qj1Py3tLgiA2Sbcd8xWoeg-mL_UUNCW11lzpKVDVHsR5teoVxhilj14U&priceShown=132&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1800&rq=P&rate=115.3200&taxesRate=16.8700&feesRate=0&fees=16.8700&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_20af5f0319c5af579d7f7fc564c2175c&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=d58277fc-f0fd-4523-9fb3-fc228988771b&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=176890444bba2287bb727746382f58884&ik=3625af5db17646ecafcc3bfa47247b8a&aok=dd4f90564eff4647a5bd4a8c397e9743&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $133
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $115
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [13] => Array
+        (
+            [id] => 217619
+            [title] => 13. Extended Stay America - Piscataway - Rutgers University
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 164
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $109
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 5 deals from $107
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/4f/19/1b/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/4c/e0/31/picnic-area.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/4c/e0/30/on-premise-guest-laundry.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/4c/e0/2f/on-premise-guest-laundry.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=51375141&geo=217619&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=c5N_75o58W0SuvmFjRhLBW5cjRCBbg8dBWFX_Gjo8WOfT_-cRCvxYutuap2A1ox3uwX4YM-_GNjWGRo4kUphB8pLtkgyyazrSBgappnvf28lrUyGM9SgHHY5iS5T5_v635-uH0dObLveRgdgv2Xrb3fPLAgQoKhlMBcxQ68hK8--53WXhvnPf8Rne-l0qEV41xCJmRm3Yn9WccQXAl7FnRkw3p2D7kXdIGpg-9ZIKK9jn-ab6YZvjMaYLw5xMAnutnBagWB_102XzZfT0E0ScogFDNamQJWMyAIukW7TrXc&priceShown=109&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=200&rq=P&rate=94.9900&taxesRate=13.9000&feesRate=0&fees=13.9000&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_1209174af578c40bba8e8127fc541af7&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=bc155799-9c46-4611-b2ed-abcedab86873&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=16b40b4e272d24caf57f5f3305b575ce2&ik=3625af5db17646ecafcc3bfa47247b8a&aok=7ff1524e5919497b896dacbe540fc954&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $109
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 5 deals from $107
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [14] => Array
+        (
+            [id] => 13566244
+            [title] => 14. Comfort Inn Edison - New Brunswick
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 132
+                    [rating] => 3
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $121
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $114
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/b6/5f/dc/hotel-exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2988
+                                    [maxWidth] => 5312
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/3e/56/3f/comfort-inn-edison.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2988
+                                    [maxWidth] => 5312
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/3e/56/0b/lobby.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/46/5f/13/breakfast-area.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=32496277&geo=13566244&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=5QpJYrnyIvrjWMZi_GmBiW5cjRCBbg8dBWFX_Gjo8WPpYpjA7ObG1tYkjhEeUrvIsEWocvE0SesF970gFXEgdx5FDIIYrYXkw8H2d2jQAYglrUyGM9SgHHY5iS5T5_v61CvgN_3qEwGl8pADIbrU6NzWrPqlSL4PS8O6Z2_qzUXimyJ5kqmUBC9veFtugrKnPKzJF3wVFLM4W7y6Qc4ZAhkw3p2D7kXdIGpg-9ZIKK9jn-ab6YZvjMaYLw5xMAnutnBagWB_102XzZfT0E0ScogFDNamQJWMyAIukW7TrXc&priceShown=121&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=700&rq=P&rate=105.2000&taxesRate=15.3900&feesRate=0&fees=15.3900&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_52c5c417a8992dcf8404a32ccfe62a45&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=52cbbf9f-da12-44a4-9e43-9330166f55de&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1542fee7c5beb7390affa1096c675cf9a&ik=3625af5db17646ecafcc3bfa47247b8a&aok=e63a57fdcb66455ea49e7adc71406a18&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $121
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $114
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [15] => Array
+        (
+            [id] => 92539
+            [title] => 15. Motel 6 Piscataway (NYC Area)
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 191
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $125
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $112
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e9/2d/47/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1332
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/e8/02/motel-6-piscataway.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1332
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/e6/a2/motel-6-piscataway.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1332
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/39/e8/69/motel-6-piscataway.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=34821827&geo=92539&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=c-vEUJnIXq0mxUrcRoYmFm5cjRCBbg8dBWFX_Gjo8WNntmKGhjjaVJDr_nxo8FdLgr0QUs0n3-0BUia8lxQ8WwvsLLPzJ22ojsMwF5gsWjQlrUyGM9SgHHY5iS5T5_v6DM5KXtm98MX-HzpFIIKLlhUYLHrBosK1GlNBav6y6SyHfFrbusNo90gsC8ZIaGxDwstPoqPbhO4Oln4XTwIw8hkw3p2D7kXdIGpg-9ZIKK9jn-ab6YZvjMaYLw5xMAnutnBagWB_102XzZfT0E0ScogFDNamQJWMyAIukW7TrXc&priceShown=124&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1200&rq=P&rate=108.3500&taxesRate=15.8500&feesRate=0&fees=15.8500&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_7d6b57524b34ea7cb1ec270df5de4e4d&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=de4c2b86-e488-4a74-a419-ab7f526fc173&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=148be30f35f9586d8421c6c4f29048c4d&ik=3625af5db17646ecafcc3bfa47247b8a&aok=9d882651dad345a9b9ac332ae65114a4&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $125
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $112
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [16] => Array
+        (
+            [id] => 98161
+            [title] => 16. Holiday Inn South Plainfield-Piscataway, an IHG Hotel
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 190
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $132
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 6 deals from $120
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 4000
+                                    [maxWidth] => 6000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0a/d4/ce/hotel-exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2731
+                                    [maxWidth] => 4096
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c4/4e/68/holiday-inn-south-plainfield.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2000
+                                    [maxWidth] => 3000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0a/d4/fc/fitness-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2000
+                                    [maxWidth] => 3000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0a/d4/fa/swimming-pool.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=240862862&geo=98161&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997363&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=TI26I5QXKWKIZPJ0CV17oB7-AInmHBAl_4T5J1l4f0vRBLaZHKfD93Sm6FCN9iL8H7OWxt0A5tqPILWu8g_CXqXXbiNA2CJKyadt7lkuJ-4WTNMZ1WS4suNgasRxp5E6QUPnTIuKiQLea9WKfZPyMgTLzrUFUfyQq11bA35CHd4G-GHM04HOxEZFqtJAjVmW_NbYthy6Us4fRE-OwxVD2VWndrK5K_qvzS7d_Ae1p0CW6lmm3cV6_P7qLjvRKA1MKaNwbPsFk5tjmT6QDSEJxfmTW3LzjYJVBPS685JwRZY&priceShown=132&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1200&rq=P&rate=115.1200&taxesRate=16.8500&feesRate=0&fees=16.8500&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_2fb9714768aee11ff55761d4eb2ab672&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=41c37a88-3d8e-4045-b949-78e95a5621ac&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=190f2a08618600158af803441aede4fc9&ik=3625af5db17646ecafcc3bfa47247b8a&aok=67d5c36de96a469e85a4c970b0834d51&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $132
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $120
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [17] => Array
+        (
+            [id] => 266103
+            [title] => 17. Garden Executive Hotel
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 295
+                    [rating] => 3
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $105
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 7 deals from $84
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 850
+                                    [maxWidth] => 1400
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/28/84/f3/reception.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1125
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/28/85/16/guest-rooms.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1333
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/28/85/13/guest-rooms.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 853
+                                    [maxWidth] => 1280
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/28/85/14/reception.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=35114794&geo=266103&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=c-vEUJnIXq0mxUrcRoYmFm5cjRCBbg8dBWFX_Gjo8WNntmKGhjjaVJDr_nxo8FdLgjsS0zVeav6y4yMOGkm_kpS_5AjBhkgX2a0jpbD8-xklrUyGM9SgHHY5iS5T5_v6NYbAiPnyh1ABZqOxgnhX3dEGbOmTYhyKbVkuT1dgkDjaqhiRSBsoRaMoTvggyQvnwJbEtUmCrrlQaMxQK7vipei_iJXy4ILe0FH5c7481UbNiZz5zQl9wey2zoFKwp9GpgVBV9pncxb1zqAHQbKs9JADijQH7GuzogQLZORTRgQ&priceShown=104&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=2000&rq=P&rate=91.0600&taxesRate=13.3200&feesRate=0&fees=13.3200&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_73364c26f0251bfaf8bef385fd1c0041&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=df63d2d9-55b9-4726-aeee-aade4f7715ab&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1d026469deeb3b53aa465f89413a7d0ce&ik=3625af5db17646ecafcc3bfa47247b8a&aok=7f7160c74ed0495da6c39138f721ebe9&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $105
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $84
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [18] => Array
+        (
+            [id] => 647625
+            [title] => 18. Fairfield Inn & Suites Edison-South Plainfield
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 191
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Marriott
+            [priceForDisplay] => $136
+            [strikethroughPrice] => 
+            [priceDetails] => Reserve now, pay at stay
+            [priceSummary] => View all 7 deals from $136
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0a/31/64/lobby.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0a/31/a0/fitness-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0a/31/a1/fitness-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/0a/31/9d/meeting-space.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Marriott1&src=37778159&geo=647625&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=31879&bucket=1016553&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=true&capped=false&gosox=BkWMvgJhe2peaSyoJ0_NbQGiMcwDPvXwMpuhwfR6nJad98ybrIyvz8AcGEl27sPWm1_UFfH7YrldGGL_kgpd_Jayp2XDmFnrzzrAMr_xnMQeu4YbPbOMAHXO1asU2BSRZS6Rmjf93SkGoBxuRtiELMZ4WTQBs2W4vBu5QjWxnwKu4ky6Xqf66_ROHt5zocxvRSTjk67Xr3-QS5RwgtRFLMHTu2j6lyDd8f1oLpuGKch2JKVUlmoIT1ifUfHPGYHE_i-VU5Qk0EDKTOUu-3MLcGGt9Yew98hsGN0uaMsiAWwtIGlcCP1csXdL5RIExRj6&priceShown=136&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=118.4300&taxesRate=17.3200&feesRate=0&fees=17.3200&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=38b598bc-dbe5-43c6-a7b5-cc35169c22fb&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1c23348f40dc2514d69790065c566e9a7&ik=3625af5db17646ecafcc3bfa47247b8a&aok=34380e71fdce4d9cbce399ac8794fa1b&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Marriott
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $136
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Reserve now, pay at stay
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $136
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [19] => Array
+        (
+            [id] => 606714
+            [title] => 19. Hampton Inn South Plainfield-Piscataway
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 734
+                    [rating] => 4.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $185
+            [strikethroughPrice] => $193
+            [priceDetails] => 
+            [priceSummary] => View all 6 deals from $185
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/86/5a/69/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/84/89/b2/meeting-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/84/89/b3/business-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/84/89/b4/meeting-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=240900307&geo=606714&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997363&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=KaNf7RJ5pgs8pbZ69dwr6TFeFDOrU7kwtkPyTriv96Vm5NoMRtm2Luq7I9wjVawSkxPiArZPqIJc2_2eJxpnABYzXOAnGn_Vqe_d5G7vQBf6MwAJ3nahn1Z_yO-G1o6fXZnZDzLssRaT28hCCo-WNC46QKgEN_YIvSP8Fd4vNi9JlX2KXodCAsU9kKY_vRpmMpabaAD3E5HgjQa5VU9cEMRhK3Hu0EZojxJkgvuGutToBXI3GQaLGU0iXghg2lmGMxQqz9FYHdFkUC75ltdxET9qqjGWcjUqP5UgrZ2LOs_YNkADGCvk_ODAuB9x9F9z&priceShown=184&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=160.7200&taxesRate=23.5000&feesRate=0&fees=23.5000&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_77533a6564ff580906e8d48979a52784&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=1d7f5363-ba35-48e2-bf95-53e168bd5345&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1c670b9e7636c5c4113551779a67cefbd&ik=3625af5db17646ecafcc3bfa47247b8a&aok=3b4c0a2983b445e0826c39106927d4ef&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $185
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => Array
+                        (
+                            [text] => $193
+                        )
+
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $185
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [20] => Array
+        (
+            [id] => 14815713
+            [title] => 20. Home2 Suites by Hilton Edison
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                    [size] => SMALL
+                    [type] => TRAVELLER_CHOICE
+                    [year] => 2024
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 123
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $159
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => View all 6 deals from $138
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/92/b7/54/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1024
+                                    [maxWidth] => 1536
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a4/9b/f7/getlstd-property-photo.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/92/b7/67/business-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/92/b7/68/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=145882693&geo=14815713&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=5QpJYrnyIvrjWMZi_GmBiW5cjRCBbg8dBWFX_Gjo8WPpYpjA7ObG1tYkjhEeUrvI5GrM8kFeA3pGy1eF1pogcJS_5AjBhkgX2a0jpbD8-xklrUyGM9SgHHY5iS5T5_v6bESnijfVLJY_4MKGuOcfCM2NdL1NC30gIzwjIWvNjjDLG3SyZs3XjXSJYJjglxHYcMY35dFIR967crhX8Scn73WRkm45KJYSGWUG_xX_rMz7eSyKwl2Qj1Py3tLgiA2Sbcd8xWoeg-mL_UUNCW11lzpKVDVHsR5teoVxhilj14U&priceShown=159&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=2200&rq=P&rate=137.7100&taxesRate=21.1000&feesRate=0&fees=21.1000&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_6f732f326b0d77ec720fcb260d830349&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=e409c0ca-a6d6-44f5-adff-b2db297fa4c9&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=16366c8a1aa49a56ba3cbb7db1d417332&ik=3625af5db17646ecafcc3bfa47247b8a&aok=5449d78945cb4db486c27e3ef866bd2a&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $159
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $138
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [21] => Array
+        (
+            [id] => 236403
+            [title] => 21. Red Roof Inn Edison
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 392
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $154
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 6 deals from $143
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3204
+                                    [maxWidth] => 5480
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/88/b7/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2853
+                                    [maxWidth] => 4280
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/06/1d/43/red-roof-inn-edison.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2473
+                                    [maxWidth] => 3714
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/88/cf/vanity-bath-edison.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2519
+                                    [maxWidth] => 3672
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/88/cb/vanity.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=240866666&geo=236403&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997363&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=x1GX4rtWACpj5cecmnKddzFeFDOrU7kwtkPyTriv96XeUKsSNKaLqe9BYt2FL737Sv5KFRKw4oGLYRH58GHgrXBiNIgIwrw_WHcd3n4K23Cxe3X6SWhT5G_f5BpDvhetI_aQJRAfp6SgE4WWhgGrvKrKzX46Myy_J2mHF_wNU0Nl9wn4oydPAfPy36lYHZ9xRyb5102YbXVHr0DljawPDYdkAZ-BsC1xJbwbJngQPVG-SJBte49c96uzPsWKh6drN2z5LARj66BIq_o2YY1d4b63ytsuRC1aGkM2qvUMJRY&priceShown=154&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1100&rq=P&rate=132.9400&taxesRate=20.9500&feesRate=0&fees=20.9500&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_5186df80ba70f50528fafa1d7058cfd3&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=309ff8f9-15d4-4682-89a2-a7fec090d3bf&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=165be2b63b327b71f89519d1242e067e2&ik=3625af5db17646ecafcc3bfa47247b8a&aok=7366f67ec0444560947441518eb178fd&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $154
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $143
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [22] => Array
+        (
+            [id] => 1803622
+            [title] => 22. Staybridge Suites North Brunswick, an IHG Hotel
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 144
+                    [rating] => 4.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $167
+            [strikethroughPrice] => 
+            [priceDetails] => Reserve now, pay at stay
+            [priceSummary] => View all 7 deals from $151
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1c/d7/2f/welcome-to-our-hotel.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1c/25/3a/free-wi-fi-free-hot-or.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1c/25/34/we-minutes-away-to-robert.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1c/25/36/spacious-well-equipped.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=241274007&geo=1803622&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=47458&bucket=997778&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=8hJkFGVXkgmSwW8fILwJCTFeFDOrU7kwtkPyTriv96VNe_BLaFa0SRa3cGLVDFgwRaPdhulLOPFZGquk8NsqB68wgK33CGzEwbQtR2jWZ_AAaE6l1IkOSCfUs_9hwUI0xPlZDqWQFdDgWQPL10HPt9jw-oWny4P1rW01E0hW3AXk7P2qVre_aMnuntPLveNlVzZeWKzedeZ15HlWVHNGfhuQQLRkkX9e_hpQYuA7IZvoBXI3GQaLGU0iXghg2lmGMxQqz9FYHdFkUC75ltdxET9qqjGWcjUqP5UgrZ2LOs_YNkADGCvk_ODAuB9x9F9z&priceShown=166&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1600&rq=P&rate=145.0000&taxesRate=21.2100&feesRate=0&fees=21.2100&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_13c83ceb811d6d8be7ac16b6ea67f0f7&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=6724377b-f926-43ef-84b6-a77009783a68&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=12cea33c322fb1cfca6668efd1522ba5e&ik=3625af5db17646ecafcc3bfa47247b8a&aok=4c9c8a33525647e4b1cf28a44b01ef37&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $167
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Reserve now, pay at stay
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $151
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [23] => Array
+        (
+            [id] => 1208119
+            [title] => 23. Somerset Lofts, Ascend Hotel Collection
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 87
+                    [rating] => 2.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $120
+            [strikethroughPrice] => $127
+            [priceDetails] => 
+            [priceSummary] => View all 5 deals from $120
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 683
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/bb/fe/9c/hotel-exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3024
+                                    [maxWidth] => 4032
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/40/50/3d/lobby-area.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3024
+                                    [maxWidth] => 4032
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/60/28/cf/somerset-lofts-an-ascend.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3024
+                                    [maxWidth] => 4032
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/60/28/b0/somerset-lofts-an-ascend.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=39306761&geo=1208119&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=902999&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=R0dY0zxxIIxUjdy0gPlPzVxCMBAbivdVVE5EqnIQCApmsn4q2Po5Q0MO3CGnyjo0uAKvmgnJIOF_aF-Y3QBoIaZr0OBMqEroryphpWgt-DNXyEI9apKW3G4GvfYp03BXyVMzgPlLMMVnphNNH8QXBNl-X1r5yqKCQ4mewh4V8P_vCPhvOkP3QSZnTQ9m-xfyB72hPJf5jaDDlt0m_o9sbYQmEZuzJyeNUVqJd38NxJEikmw4aFpsBsIxAwnlyiFUFtYgIbs7xB_6Q8mhlrHUZw&priceShown=120&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=102.6700&taxesRate=17.0500&feesRate=0&fees=17.0500&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_3ff57fb505607e58bf6be76e493f062d&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=b88340b8-2504-495e-a9ff-0a86ee014941&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1cbb9e287b8cd4cd175bc84c842937b2f&ik=3625af5db17646ecafcc3bfa47247b8a&aok=7c5fff3e804144fba0ca31ff9c3565bd&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $120
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => Array
+                        (
+                            [text] => $127
+                        )
+
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 5 deals from $120
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [24] => Array
+        (
+            [id] => 574631
+            [title] => 24. Homewood Suites By Hilton Somerset
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 744
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $210
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 6 deals from $141
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 768
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/e6/05/1d/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 739
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/e8/4f/59/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/e8/4f/5a/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 730
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/e3/a1/ac/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=32501765&geo=574631&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=902999&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=beKonBqaV1-VCvHLmib0FFxCMBAbivdVVE5EqnIQCAoqP75uSEM_CcMHRd0Vbn2cGzpQuIFbKNz2ruNBfTTcsKZr0OBMqEroryphpWgt-DNXyEI9apKW3G4GvfYp03BXzJDQwLdZufxMHTtC4ESp8G422UYUG_BPMdEHw5LzRxggzbafjcwv2nKaFucEc-l0bmiHr6OgPGrTj4oRU3os_by8leHDS8EJ3ZzCu9Q2oMd1B5TRLwsqGZLkvfKFf6zIFR7Lg2mBHnJ-L7AXdTWLwg&priceShown=210&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=7000&rq=P&rate=183.1400&taxesRate=26.7900&feesRate=0&fees=26.7900&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_250acd093dbef8ad7a1841aa36c5ef76&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=1ca372f6-aeb2-4510-8d30-e9c4b9718cc6&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1cbe9efc2c9056e7ab4a9881ed9fb1ef3&ik=3625af5db17646ecafcc3bfa47247b8a&aok=43d696d0183541ed899c38adb670597d&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $210
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $141
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [25] => Array
+        (
+            [id] => 14076665
+            [title] => 25. Holiday Inn Express & Suites North Brunswick
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 40
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $140
+            [strikethroughPrice] => $158
+            [priceDetails] => Reserve now, pay at stay
+            [priceSummary] => View all 7 deals from $140
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/01/dc/90/welconme-to-the-fabulous.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/01/dc/b0/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/01/dc/af/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3712
+                                    [maxWidth] => 5568
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/01/dc/ad/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=241304873&geo=14076665&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=47458&bucket=997778&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=_VrNbTY4MuzkIhTgys6hHzFeFDOrU7kwtkPyTriv96X_LzU9T-fBTlHZXnQYsDmDXZkrSehYZETX8ZK3e0rfoK8wgK33CGzEwbQtR2jWZ_AAaE6l1IkOSCfUs_9hwUI0xPlZDqWQFdDgWQPL10HPtwW33rFe0wCu2CZZFYxFe7qOM9-sjPhVTYB1OymrJBk5FP5nGoQYG5i8XtlXl5ecKi1_iGH7EhN9zJdvdnCpFLfoBXI3GQaLGU0iXghg2lmGMxQqz9FYHdFkUC75ltdxET9qqjGWcjUqP5UgrZ2LOs_YNkADGCvk_ODAuB9x9F9z&priceShown=139&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=120.9200&taxesRate=18.1400&feesRate=0&fees=18.1400&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_211dab2f477858bbe1abce3c9cf54c06&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=685f6ea5-3341-4f29-97f6-c45600bb2c13&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=156590863742664b4d11aa36a82728210&ik=3625af5db17646ecafcc3bfa47247b8a&aok=e65183c4428c468392d99ab1ea3b92f8&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $140
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => Array
+                        (
+                            [text] => $158
+                        )
+
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Reserve now, pay at stay
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $140
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [26] => Array
+        (
+            [id] => 125656
+            [title] => 26. Holiday Inn Piscataway - Somerset, an IHG Hotel
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 330
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $150
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 7 deals from $136
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2881
+                                    [maxWidth] => 3840
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/02/38/eb/indoor-all-year-round.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2666
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ce/10/12/guest-room.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2666
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/5c/6e/8f/holiday-inn-piscataway.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2666
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/5c/6e/8a/holiday-inn-piscataway.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=35079770&geo=125656&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=c-vEUJnIXq0mxUrcRoYmFm5cjRCBbg8dBWFX_Gjo8WNntmKGhjjaVJDr_nxo8FdLKCfJJOmLyIR0SKTu6Tgs3Yd1oRfjEOpLiEhfpn_OCh78vbj2NJymW4HLIvxPPgakoUt5xsdmb_gJhV8DoFPsSEe4R29AqIkN7nda_5MaBifz2N3QW4ml8dtHwEXmHfxZP8wsAcBiIKaZVGJi-bt_tBkw3p2D7kXdIGpg-9ZIKK9jn-ab6YZvjMaYLw5xMAnutnBagWB_102XzZfT0E0ScogFDNamQJWMyAIukW7TrXc&priceShown=150&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1400&rq=P&rate=130.8600&taxesRate=19.1400&feesRate=0&fees=19.1400&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_1150095c6e27d3a38ad2b05482c07818&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=39389d91-618d-4939-8152-eb47879a0d9f&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1ced002309b90ab4cf15cc10ac0a6a989&ik=3625af5db17646ecafcc3bfa47247b8a&aok=516d3a473f0b43ceb8eda2c420ffc7a3&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $150
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $136
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [27] => Array
+        (
+            [id] => 92537
+            [title] => 27. Embassy Suites by Hilton Piscataway Somerset
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 1,142
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $184
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 6 deals from $159
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1365
+                                    [maxWidth] => 2048
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/1e/ee/f7/hotel-exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/b1/c5/09/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f4/aa/b3/business-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f4/aa/b2/barlounge.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=35111116&geo=92537&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=917344&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=zBT6LzS8MNtNKkIzYF7ry25cjRCBbg8dBWFX_Gjo8WOfT_-cRCvxYutuap2A1ox3BXBehde_t8yBexXPjFXA08pLtkgyyazrSBgappnvf28lrUyGM9SgHHY5iS5T5_v6Serdil7CElFxp_1x5YUbDsW-fxsP8x5sPvavyULW9IgnUivA6WYPVvQE0yNiwW6hcMY35dFIR967crhX8Scn73WRkm45KJYSGWUG_xX_rMz7eSyKwl2Qj1Py3tLgiA2Sbcd8xWoeg-mL_UUNCW11lzpKVDVHsR5teoVxhilj14U&priceShown=183&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=2500&rq=P&rate=159.3600&taxesRate=23.9000&feesRate=0&fees=23.9000&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_33e218e0d1c3b0e27551d104efef75e8&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=2b0f73bb-ce43-46b2-8372-733324b69f66&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=18a3a6fadd4e85d17f7787db178ad9551&ik=3625af5db17646ecafcc3bfa47247b8a&aok=5f557d3feed2412aa168c4f8f8f09d05&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $184
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $159
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [28] => Array
+        (
+            [id] => 256904
+            [title] => 28. Residence Inn by Marriott Somerset
+            [primaryInfo] => Free breakfast available
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 151
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Marriott
+            [priceForDisplay] => $164
+            [strikethroughPrice] => 
+            [priceDetails] => Reserve now, pay at stay
+            [priceSummary] => View all 7 deals from $164
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/8e/a9/two-bedroom-suite.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/8e/b7/breakfast-area.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/8e/b9/the-morning-mix.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2667
+                                    [maxWidth] => 4000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ff/8e/b4/egg-ham-cheese-on-croissant.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Marriott1&src=37779822&geo=256904&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=31879&bucket=1016553&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=true&capped=false&gosox=7hbkms4CG3R2zbmT34SXNByEho-G6VWheiTeU8rdn5VC1ZBHx3DCGdFkHuzZ2xcWtOstjQFT_R85uPQQ8Zn30FrPtTMJV75037n7OoLgvNVHo9z_zGWb2u9X45e3AUbAjnOcBO37bERzp9-UyWAKcUeNtvPcSitT0b_fP8vRF_qOWiABRHXRK9qYYk9dr_ldUK3teNwNOp6_1T_xppgXVNLz0AF1SKDwWevfFrd84xQZMN6dg-5F3SBqYPvWSCivY5_mm-mGb4zGmC8OcTAJ7rZwWoFgf9dNl82X09BNEnKIBQzWpkCVjMgCLpFu0613&priceShown=164&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=143.0000&taxesRate=20.9100&feesRate=0&fees=20.9100&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=68555124-9614-4efe-aeb7-02de1e19d7d3&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=1759792d00b0ca039ffe4fdaf96c92f75&ik=3625af5db17646ecafcc3bfa47247b8a&aok=1b288a107c384a7ca1fd57736d2c259c&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Marriott
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $164
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Reserve now, pay at stay
+                        )
+
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 7 deals from $164
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [29] => Array
+        (
+            [id] => 98174
+            [title] => 29. Sonesta Simply Suites Somerset
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 106
+                    [rating] => 3.5
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 
+            [provider] => Vio.com
+            [priceForDisplay] => $109
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 6 deals from $100
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/9c/6c/8e/exterior-front.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 768
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/9c/6c/ad/fitness-center.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 768
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/9c/6c/ac/laundry-facility.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 768
+                                    [maxWidth] => 1024
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/9c/6c/ab/laundry-facility.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=241243268&geo=98174&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=47458&bucket=997778&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=7MVT6MKSINpgDmLlKyQJpDFeFDOrU7kwtkPyTriv96VFLxzLcZreK2Bi2zkIpMX2L1xYtsufaCmENZo2oqALxK8wgK33CGzEwbQtR2jWZ_AAaE6l1IkOSCfUs_9hwUI0xPlZDqWQFdDgWQPL10HPtwW33rFe0wCu2CZZFYxFe7pOwEqbw-M_KHaf9LIL-fqjTM-OQ5UxQhLn27j2Zetad_rG40gjPvEzl3-FWniZCP3oBXI3GQaLGU0iXghg2lmGMxQqz9FYHdFkUC75ltdxET9qqjGWcjUqP5UgrZ2LOs_YNkADGCvk_ODAuB9x9F9z&priceShown=109&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=900&rq=P&rate=86.6400&taxesRate=21.9200&feesRate=0&fees=21.9200&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_35b887af3ffe81b1abf3ead871a57259&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=69c9b907-3eb5-4df6-afbc-814457df5a31&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=114de5f096e4d60b628161880834c2288&ik=3625af5db17646ecafcc3bfa47247b8a&aok=7bda3a64d83948ec89d00f6ecd1c733f&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $109
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 6 deals from $100
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [30] => Array
+        (
+            [id] => 12351507
+            [title] => 30. WoodSpring Suites South Plainfield
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 86
+                    [rating] => 4
+                )
+
+            [isSponsored] => 
+            [accentedLabel] => 17% LESS THAN USUAL
+            [provider] => Vio.com
+            [priceForDisplay] => $105
+            [strikethroughPrice] => 
+            [priceDetails] => 
+            [priceSummary] => View all 4 deals from $103
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 682
+                                    [maxWidth] => 1023
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c3/28/c2/hotel-exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1500
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a0/2c/fd/woodspring-suites-south.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1500
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a0/2d/05/woodspring-suites-south.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 1500
+                                    [maxWidth] => 2000
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a0/2d/0d/woodspring-suites-south.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=Vio&src=240883305&geo=12351507&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=4&silo=47458&bucket=997363&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=302298203&managed=false&capped=false&gosox=b8dGn9OqYXA3kOaBHu044qtgols3TDfMINDavSoc4-ZDNW_7KkPdJHA2OnkNO9G5WtnqfkmScfmb0QOd2QbrshT7EIMoeHE0x6g4YnkfkHrW7aSVdJB_r_syZtCp-6XalPVtssbBvlhLtBiaBUKhpd1PENhRAOGlMi_edXDvRRv1qCatQZhMwc5etE1L9xfvb6Lhf_GvJwmybrSVq_4Fpwcp4EF1jDmzETUdyWq1UKifMMqvDxkk9bNqmkeJh_z6yzvxpT0jet2XG_dLm27I5HrXfZNx6DxejY5_lPcTMH0&priceShown=105&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=300&rq=P&rate=91.4300&taxesRate=13.3600&feesRate=0&fees=13.3600&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_321eedb2ada937a724ce3adaf5cca995&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=178fb777-a178-4c7d-af06-2da65ca84d4f&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=10adfb8a623e3eb3ddd7624b739c28141&ik=3625af5db17646ecafcc3bfa47247b8a&aok=95ba825a4680442d8af356cbf695f921&tp=APS-Hotels&pageLocId=46664
+                    [provider] => Vio.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $105
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => 
+                    [commerceSummary] => Array
+                        (
+                            [text] => View all 4 deals from $103
+                        )
+
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [31] => Array
+        (
+            [id] => 236403
+            [title] => Red Roof Inn Edison
+            [primaryInfo] => 
+            [secondaryInfo] => 
+            [badge] => Array
+                (
+                )
+
+            [bubbleRating] => Array
+                (
+                    [count] => 392
+                    [rating] => 4
+                )
+
+            [isSponsored] => 1
+            [accentedLabel] => 
+            [provider] => Booking.com
+            [priceForDisplay] => $155
+            [strikethroughPrice] => 
+            [priceDetails] => Free cancellation
+            [priceSummary] => 
+            [cardPhotos] => Array
+                (
+                    [0] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 3204
+                                    [maxWidth] => 5480
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/88/b7/exterior.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2853
+                                    [maxWidth] => 4280
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/06/1d/43/red-roof-inn-edison.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2473
+                                    [maxWidth] => 3714
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/88/cf/vanity-bath-edison.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [__typename] => AppPresentation_PhotoItem
+                            [sizes] => Array
+                                (
+                                    [__typename] => AppPresentation_PhotoItemSizeDynamic
+                                    [maxHeight] => 2519
+                                    [maxWidth] => 3672
+                                    [urlTemplate] => https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/88/cb/vanity.jpg?w={width}&h={height}&s=1
+                                )
+
+                        )
+
+                )
+
+            [commerceInfo] => Array
+                (
+                    [externalUrl] => https://www.tripadvisor.in/Commerce?p=BookingCom&src=47342109&geo=236403&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995260&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=302298203&managed=false&capped=false&gosox=uHHqUPQmWe8QsCHv3Gmn5SQZ_-orF35DcJBRFnIjt4kGYvY-DDTkpdALLsjQbQMnCVCy91WXosq04293FFkDxCWtTIYz1KAcdjmJLlPn-_oDyb_X9EXqqlNybNglEb7efaXqibSMx52gblruuFh6ucvQZcN_EmKedIiHoWNNxVQrnApLjA8tqsz-Ef_YAokkrtJv5c9ib9-0isoEuEIXgs2JnPnNCX3B7LbOgUrCn0amBUFX2mdzFvXOoAdBsqz0kAOKNAfsa7OiBAtk5FNGBA&priceShown=155&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1200&rq=P&rate=135.2000&taxesRate=19.7800&feesRate=0&fees=19.7800&cur=USD&adults=1&child_rm_ages=&inDay=2&outDay=9&rdex=RDEX_20c21b1944de92601f6ec70c2a1ecc76&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=e516b885-06f8-4344-856b-1133d183f7cb&def_d=true&bld=L_7,D_3,G_1,W_5,U_1,C_240802,T_2&bh=true&cs=15a04915ace2d7f9922ccaf0f71a7ac2d&ik=3625af5db17646ecafcc3bfa47247b8a&aok=0cc5364bb9af46e499f896fd6914052e&tp=APS-Hotels&pageLocId=46664&area=Spons%7CSpons_Meta_Pref
+                    [provider] => Booking.com
+                    [loadingMessage] => 
+                    [priceForDisplay] => Array
+                        (
+                            [text] => $155
+                            [debugValueKey] => 
+                        )
+
+                    [strikethroughPrice] => 
+                    [pricingPeriod] => 
+                    [details] => Array
+                        (
+                            [text] => Free cancellation
+                        )
+
+                    [commerceSummary] => 
+                    [roomUrgencyMessage] => 
+                    [labels] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
