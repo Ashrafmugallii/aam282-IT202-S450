@@ -36,3 +36,63 @@ CREATE TABLE IF NOT EXISTS `Locations` (
     `secondary_text` VARCHAR(255) NOT NULL
 );
 
+
+CREATE TABLE Restaurants (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    document_id VARCHAR(255) NOT NULL,
+    location_id VARCHAR(255) NOT NULL,
+    localized_name VARCHAR(255) NOT NULL,
+    long_only_hierarchy VARCHAR(255),
+    street_address VARCHAR(255),
+    place_type VARCHAR(255),
+    latitude DECIMAL(10, 8),
+    longitude DECIMAL(11, 8),
+    is_geo BOOLEAN,
+    thumbnail_url VARCHAR(255),
+    UNIQUE KEY unique_location_id (location_id)
+);
+
+CREATE TABLE restaurantDetails (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    location_id VARCHAR(255) NOT NULL,
+    name VARCHAR(255),
+    average_rating DECIMAL(2, 1),
+    user_review_count INT,
+    establishment_type VARCHAR(255),
+    cuisine_tags VARCHAR(255),
+    price_tag VARCHAR(10),
+    open_status_text VARCHAR(255),
+    hero_img_url VARCHAR(255),
+    thumbnail_url VARCHAR(255),
+    UNIQUE (location_id)
+);
+
+CREATE TABLE Likes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    journal_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE,
+    FOREIGN KEY (journal_id) REFERENCES Journals(id) ON DELETE CASCADE,
+    UNIQUE KEY unique_like (user_id, journal_id)
+);
+
+CREATE TABLE Follows (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    follower_id INT NOT NULL,
+    followed_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (follower_id) REFERENCES Users(id) ON DELETE CASCADE,
+    FOREIGN KEY (followed_id) REFERENCES Users(id) ON DELETE CASCADE,
+    UNIQUE KEY unique_follow (follower_id, followed_id)
+);
+
+CREATE TABLE Comments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    journal_id INT NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE,
+    FOREIGN KEY (journal_id) REFERENCES Journals(id) ON DELETE CASCADE
+);

@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div>
             <input type="submit" value="Save Journal Details" />
         </div>
-        <input type="hidden" name="detail_type" value="hotel" />
+        <input type="hidden" name="detail_type" value="restaurant" />
         <input type="hidden" name="detail_id" id="detail_id" />
         <input type="hidden" name="detail_name" id="detail_name" />
         <input type="hidden" name="detail_description" id="detail_description" />
@@ -173,7 +173,7 @@ function searchRestaurants() {
     restaurantList.innerHTML = 'Searching...';
     console.log("Searching for restaurants with query: " + query);
 
-    fetch('searchRestaurants.php?query=' + query)
+    fetch('fetchRestaurants.php?query=' + query)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -182,23 +182,28 @@ function searchRestaurants() {
         })
         .then(data => {
             restaurantList.innerHTML = '';
-            data.forEach(restaurant => {
-                var option = document.createElement('div');
-                option.className = 'restaurant-item';
-                option.innerHTML = `
-                    <h3>${restaurant.name}</h3>
-                    <p>${restaurant.address}</p>
-                    <p>Rating: ${restaurant.rating}</p>
-                `;
-                option.addEventListener('click', function() {
-                    document.getElementById('detail_id').value = restaurant.id;
-                    document.getElementById('detail_name').value = restaurant.name;
-                    document.getElementById('detail_description').value = restaurant.address;
-                    document.getElementById('detail_image_url').value = restaurant.image_url;
+            if (data.length === 0) {
+                restaurantList.innerHTML = 'No restaurants found.';
+            } else {
+                data.forEach(restaurant => {
+                    var option = document.createElement('div');
+                    option.className = 'restaurant-item';
+                    option.innerHTML = `
+                        <h3>${restaurant.name}</h3>
+                        <p>${restaurant.establishment_type}</p>
+                        <p>Rating: ${restaurant.average_rating}</p>
+                        <img src="${restaurant.hero_img_url}" alt="${restaurant.name}">
+                    `;
+                    option.addEventListener('click', function() {
+                        document.getElementById('detail_id').value = restaurant.location_id;
+                        document.getElementById('detail_name').value = restaurant.name;
+                        document.getElementById('detail_description').value = restaurant.establishment_type;
+                        document.getElementById('detail_image_url').value = restaurant.hero_img_url;
+                    });
+                    restaurantList.appendChild(option);
                 });
-                restaurantList.appendChild(option);
-            });
-            console.log("Restaurants found: ", data);
+                console.log("Restaurants found: ", data);
+            }
         })
         .catch(error => {
             console.error('Error searching restaurants:', error);
