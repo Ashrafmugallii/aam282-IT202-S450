@@ -72,7 +72,7 @@ session_start();
             </ul>
                 <ul class="navbar-nav ms-auto">
                     <?php if (is_logged_in()) : ?>
-                        <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../Project/mainpages/logout.php'); ?>">Logout</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo get_url('/../public_html/Project/mainpages/logout.php'); ?>">Logout</a></li>
                     <?php endif; ?>
                 </ul>
         </div>

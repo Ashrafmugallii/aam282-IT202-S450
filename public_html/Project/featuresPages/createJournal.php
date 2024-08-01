@@ -1,5 +1,6 @@
 <?php
 require(__DIR__ . "/../../../partials/nav.php");
+$errors = [];
 
 // handling the form submission 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -12,8 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $content = $_POST['content']; // info about the trip aka summary
     $photos = $_POST['photos']; //photos are uploaded and processed separately
 
-    //  inputs validation
-    $errors = [];
+    // inputs validation
     if (empty($name)) {
         $errors[] = "Name is required.";
     }
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errors[] = "Content is required.";
     }
 
-    // If no errors, insert the data into tghe database
+    // If no errors, insert the data into the database
     if (empty($errors)) {
         $db = getDB(); //get db conn
         $stmt = $db->prepare("INSERT INTO Journals (user_id, name, from_airport_code, to_airport_code, trip_start_date, trip_end_date, content, photos, created, modified) VALUES (:user_id, :name, :from_airport_code, :to_airport_code, :trip_start_date, :trip_end_date, :content, :photos, NOW(), NOW())");
@@ -64,58 +64,102 @@ $stmt->execute();
 $airports = $stmt->fetchAll(PDO::FETCH_ASSOC); //getting all airports
 ?>
 
-<div class="container-fluid">
-    <h1>Create Journal</h1>
-    <form method="POST">
-        <div>
-            <label>Journal Name</label>
-            <input type="text" name="name" required />
+<div class="container mt-5">
+    <h1 class="text-center">Create Journal</h1>
+    <div class="progress mb-3">
+        <div class="progress-bar" id="progressBar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="card mx-auto" style="max-width: 600px;">
+        <div class="card-body">
+            <?php foreach ($errors as $error): ?>
+                <div class="alert alert-danger" role="alert">
+                    <?php echo $error; ?>
+                </div>
+            <?php endforeach; ?>
+            <form method="POST">
+                <div class="mb-3">
+                    <label for="journalName" class="form-label">Journal Name</label>
+                    <input type="text" name="name" class="form-control" id="journalName" required />
+                </div>
+                <div class="mb-3">
+                    <label for="fromAirport" class="form-label">From Location</label>
+                    <select id="from_airport_dropdown" name="from_airport_code_dropdown" class="form-select" onchange="setFromAirportCode()">
+                        <option value="">Select from existing airports</option>
+                        <?php foreach ($airports as $airport): ?>
+                            <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                    <input type="hidden" id="from_airport_code" name="from_airport_code" />
+                </div>
+                <div class="mb-3">
+                    <label for="toAirport" class="form-label">To Location</label>
+                    <select id="to_airport_dropdown" name="to_airport_code_dropdown" class="form-select" onchange="setToAirportCode()">
+                        <option value="">Select from existing airports</option>
+                        <?php foreach ($airports as $airport): ?>
+                            <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                    <input type="hidden" id="to_airport_code" name="to_airport_code" />
+                </div>
+                <div class="mb-3">
+                    <label for="location" class="form-label">Fetch Airports</label>
+                    <div class="input-group">
+                        <input type="text" id="location" class="form-control" placeholder="Type location..." />
+                        <button type="button" class="btn btn-primary" onclick="fetchAirports()">Fetch</button>
+                    </div>
+                    <div id="fetched_airports_list" class="mt-2"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="tripStartDate" class="form-label">Trip Start Date</label>
+                    <input type="date" name="trip_start_date" class="form-control datepicker" id="tripStartDate" required />
+                </div>
+                <div class="mb-3">
+                    <label for="tripEndDate" class="form-label">Trip End Date</label>
+                    <input type="date" name="trip_end_date" class="form-control datepicker" id="tripEndDate" required />
+                </div>
+                <div class="mb-3">
+                    <label for="content" class="form-label">Content</label>
+                    <textarea name="content" class="form-control rich-text-editor" id="content" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="photos" class="form-label">Photos</label>
+                    <input type="text" name="photos" class="form-control" id="photos" placeholder="Enter photo URLs separated by commas" onchange="previewImages()" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Image Previews</label>
+                    <div id="image_previews"></div>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-success">Create Journal</button>
+                </div>
+            </form>
         </div>
-        <div>
-            <label>From Location</label>
-            <select id="from_airport_dropdown" name="from_airport_code_dropdown" onchange="setFromAirportCode()">
-                <option value="">Select from existing airports</option>
-                <?php foreach ($airports as $airport): ?>
-                    <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?></option>
-                <?php endforeach; ?>
-            </select>
-            <input type="hidden" id="from_airport_code" name="from_airport_code" />
-        </div>
-        <div>
-            <label>To Location</label>
-            <select id="to_airport_dropdown" name="to_airport_code_dropdown" onchange="setToAirportCode()">
-                <option value="">Select from existing airports</option>
-                <?php foreach ($airports as $airport): ?>
-                    <option value="<?php echo $airport['code']; ?>"><?php echo $airport['display_name']; ?></option>
-                <?php endforeach; ?>
-            </select>
-            <input type="hidden" id="to_airport_code" name="to_airport_code" />
-        </div>
-        <div>
-            <input type="text" id="location" placeholder="Type location..." />
-            <button type="button" onclick="fetchAirports()">Fetch Airports</button>
-            <div id="fetched_airports_list"></div>
-        </div>
-        <div>
-            <label>Trip Dates</label>
-            <input type="date" name="trip_start_date" required />
-            <input type="date" name="trip_end_date" required />
-        </div>
-        <div>
-            <label>Content</label>
-            <textarea name="content" required></textarea>
-        </div>
-        <div>
-            <label>Photos</label>
-            <input type="text" name="photos" placeholder="Enter photo URLs separated by commas" />
-        </div>
-        <div>
-            <input type="submit" value="Create Journal" />
-        </div>
-    </form>
+    </div>
 </div>
 
 <script>
+document.addEventListener("DOMContentLoaded", function() {
+    $('.datepicker').datepicker({
+        format: 'yyyy-mm-dd',
+        autoclose: true,
+        todayHighlight: true
+    });
+
+    tinymce.init({
+        selector: '.rich-text-editor',
+        height: 300,
+        menubar: false,
+        plugins: [
+            'advlist autolink lists link image charmap print preview anchor',
+            'searchreplace visualblocks code fullscreen',
+            'insertdatetime media table paste code help wordcount'
+        ],
+        toolbar: 'undo redo | formatselect | bold italic backcolor | \
+                  alignleft aligncenter alignright alignjustify | \
+                  bullist numlist outdent indent | removeformat | help'
+    });
+});
+
 function setFromAirportCode() {
     var dropdown = document.getElementById('from_airport_dropdown');
     var code = dropdown.value;
@@ -175,6 +219,34 @@ function fetchAirports() {
             console.error('Error fetching airports:', error);
             alert('Error fetching airports: ' + error.message);
         });
+}
+
+function previewImages() {
+    var photosInput = document.getElementById('photos');
+    var imagePreviews = document.getElementById('image_previews');
+    var urls = photosInput.value.split(',').map(url => url.trim());
+    imagePreviews.innerHTML = '';
+    urls.forEach(url => {
+        if (url) {
+            var img = document.createElement('img');
+            img.src = url;
+            img.classList.add('img-thumbnail', 'm-2');
+            img.style.maxWidth = '100px';
+            imagePreviews.appendChild(img);
+        }
+    });
+}
+
+document.querySelector('form').addEventListener('input', updateProgressBar);
+
+function updateProgressBar() {
+    var progressBar = document.getElementById('progressBar');
+    var inputs = document.querySelectorAll('input, textarea, select');
+    var filled = Array.from(inputs).filter(input => input.value).length;
+    var total = inputs.length;
+    var progress = Math.round((filled / total) * 100);
+    progressBar.style.width = progress + '%';
+    progressBar.setAttribute('aria-valuenow', progress);
 }
 </script>
 
