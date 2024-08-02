@@ -1,0 +1,112 @@
+CREATE TABLE Locations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    document_id VARCHAR(255) UNIQUE NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    secondary_text VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Hotels (
+    hotel_id VARCHAR(255) PRIMARY KEY,
+    title VARCHAR(255),
+    primary_info TEXT,
+    secondary_info TEXT,
+    rating_count INT,
+    rating FLOAT,
+    provider VARCHAR(255),
+    price_display VARCHAR(255),
+    price_details TEXT,
+    price_summary TEXT,
+    commerce_info TEXT,
+    image_url_1 TEXT,
+    image_url_2 TEXT,
+    image_url_3 TEXT,
+    image_url_4 TEXT,
+    location_id VARCHAR(255),
+    description TEXT,
+    amenities TEXT
+);
+
+
+CREATE TABLE IF NOT EXISTS `Locations` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `title` VARCHAR(255) NOT NULL,
+    `geo_id` VARCHAR(255) NOT NULL,
+    `secondary_text` VARCHAR(255) NOT NULL
+);
+
+
+CREATE TABLE Restaurants (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    document_id VARCHAR(255) NOT NULL,
+    location_id VARCHAR(255) NOT NULL,
+    localized_name VARCHAR(255) NOT NULL,
+    long_only_hierarchy VARCHAR(255),
+    street_address VARCHAR(255),
+    place_type VARCHAR(255),
+    latitude DECIMAL(10, 8),
+    longitude DECIMAL(11, 8),
+    is_geo BOOLEAN,
+    thumbnail_url VARCHAR(255),
+    UNIQUE KEY unique_location_id (location_id)
+);
+
+CREATE TABLE restaurantDetails (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    location_id VARCHAR(255) NOT NULL,
+    name VARCHAR(255),
+    average_rating DECIMAL(2, 1),
+    user_review_count INT,
+    establishment_type VARCHAR(255),
+    cuisine_tags VARCHAR(255),
+    price_tag VARCHAR(10),
+    open_status_text VARCHAR(255),
+    hero_img_url VARCHAR(255),
+    thumbnail_url VARCHAR(255),
+    UNIQUE (location_id)
+);
+
+CREATE TABLE Likes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    journal_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE,
+    FOREIGN KEY (journal_id) REFERENCES Journals(id) ON DELETE CASCADE,
+    UNIQUE KEY unique_like (user_id, journal_id)
+);
+
+CREATE TABLE Follows (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    follower_id INT NOT NULL,
+    followed_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (follower_id) REFERENCES Users(id) ON DELETE CASCADE,
+    FOREIGN KEY (followed_id) REFERENCES Users(id) ON DELETE CASCADE,
+    UNIQUE KEY unique_follow (follower_id, followed_id)
+);
+
+CREATE TABLE Comments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    journal_id INT NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE,
+    FOREIGN KEY (journal_id) REFERENCES Journals(id) ON DELETE CASCADE
+);
+
+CREATE TABLE RestaurantLocationDetails (
+    location_id INT PRIMARY KEY,
+    document_id VARCHAR(255),
+    property_id INT,
+    localized_name VARCHAR(255),
+    long_hierarchy VARCHAR(255),
+    street1 VARCHAR(255),
+    place_type VARCHAR(50),
+    latitude DECIMAL(9,6),
+    longitude DECIMAL(9,6),
+    thumbnail_url VARCHAR(255)
+);
+

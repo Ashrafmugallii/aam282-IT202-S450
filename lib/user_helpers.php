@@ -14,6 +14,7 @@ function is_logged_in($redirect = false, $destination = "login.php")
     }
     return $isLoggedIn;
 }
+//aam282
 function has_role($role)
 {
     if (is_logged_in() && isset($_SESSION["user"]["roles"])) {

@@ -7,3 +7,5 @@ CREATE TABLE IF NOT EXISTS `Users` (
     PRIMARY KEY (`id`),
     UNIQUE (`email`)
 )
+
+ALTER TABLE Users ADD COLUMN profile_pic VARCHAR(255) DEFAULT NULL;
