@@ -1,166 +1,109 @@
 <?php
 require(__DIR__ . "/../../../lib/db.php");
 
-function log_error($message) {
-    file_put_contents(__DIR__ . '/logs/error_log_file.txt', $message . PHP_EOL, FILE_APPEND);
+function logMessage($message) {
+    $logfile = __DIR__ . "/logs/restaurant_log.txt";
+    file_put_contents($logfile, date('Y-m-d H:i:s') . " - " . $message . PHP_EOL, FILE_APPEND);
 }
 
-// Check if query parameter is set
-if (!isset($_GET['query']) || empty($_GET['query'])) {
-    http_response_code(400);
-    echo json_encode(["error" => "Query parameter is missing."]);
-    exit;
-}
-
-// Get the query parameter
-$query = urlencode($_GET['query']);
-
-// Initialize cURL for searchLocation
-$curl = curl_init();
-
-curl_setopt_array($curl, [
-    CURLOPT_URL => "https://tripadvisor16.p.rapidapi.com/api/v1/restaurant/searchLocation?query=$query",
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 30,
-    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-    CURLOPT_CUSTOMREQUEST => "GET",
-    CURLOPT_HTTPHEADER => [
-        "x-rapidapi-host: tripadvisor16.p.rapidapi.com",
-        "x-rapidapi-key: 05e6f92683mshfa71bf0b3e89f6fp149107jsn647aabae8d76"
-    ],
-]);
-
-// Execute cURL request for searchLocation
-$locationResponse = curl_exec($curl);
-$locationErr = curl_error($curl);
-
-// Close cURL
-curl_close($curl);
-
-if ($locationErr) {
-    http_response_code(500);
-    echo json_encode(["error" => "cURL Error: " . $locationErr]);
-    log_error("cURL Error: " . $locationErr);
-    exit;
-} else {
-    // Decode API response for searchLocation
-    $locationData = json_decode($locationResponse, true);
-
-    // Check for JSON decoding error
-    if (json_last_error() !== JSON_ERROR_NONE) {
-        http_response_code(500);
-        echo json_encode(["error" => "JSON Decode Error: " . json_last_error_msg()]);
-        log_error("JSON Decode Error: " . json_last_error_msg());
-        exit;
+function fetchRestaurantLocation($query) {
+    logMessage("Fetching restaurant location for query: $query");
+    if (is_null($query)) {
+        logMessage("Query parameter is required.");
+        return ["error" => "Query parameter is required."];
     }
 
-    // Extract locationId from searchLocation response
-    if (!isset($locationData['data']) || !is_array($locationData['data'])) {
-        http_response_code(500);
-        echo json_encode(["error" => "Invalid searchLocation API response structure."]);
-        log_error("Invalid searchLocation API response structure.");
-        exit;
-    }
-
-    $locationId = $locationData['data'][0]['locationId'];
-
-    // Initialize cURL for searchRestaurants
     $curl = curl_init();
-
     curl_setopt_array($curl, [
-        CURLOPT_URL => "https://tripadvisor16.p.rapidapi.com/api/v1/restaurant/searchRestaurants?locationId=$locationId",
+        CURLOPT_URL => "https://tripadvisor16.p.rapidapi.com/api/v1/restaurant/searchLocation?query=" . urlencode($query),
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_ENCODING => "",
-        CURLOPT_MAXREDIRS => 10,
-        CURLOPT_TIMEOUT => 30,
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => "GET",
         CURLOPT_HTTPHEADER => [
             "x-rapidapi-host: tripadvisor16.p.rapidapi.com",
             "x-rapidapi-key: 05e6f92683mshfa71bf0b3e89f6fp149107jsn647aabae8d76"
         ],
     ]);
 
-    // Execute cURL request for searchRestaurants
-    $restaurantResponse = curl_exec($curl);
-    $restaurantErr = curl_error($curl);
-
-    // Close cURL
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
     curl_close($curl);
 
-    if ($restaurantErr) {
-        http_response_code(500);
-        echo json_encode(["error" => "cURL Error: " . $restaurantErr]);
-        log_error("cURL Error: " . $restaurantErr);
-        exit;
+    if ($err) {
+        logMessage("cURL Error: " . $err);
+        return ["error" => "cURL Error #:" . $err];
     } else {
-        // Decode API response for searchRestaurants
-        $restaurantData = json_decode($restaurantResponse, true);
-
-        // Check for JSON decoding error
-        if (json_last_error() !== JSON_ERROR_NONE) {
-            http_response_code(500);
-            echo json_encode(["error" => "JSON Decode Error: " . json_last_error_msg()]);
-            log_error("JSON Decode Error: " . json_last_error_msg());
-            exit;
-        }
-
-        // Check if the API response contains the 'data' key
-        if (!isset($restaurantData['data']) || !is_array($restaurantData['data'])) {
-            http_response_code(500);
-            echo json_encode(["error" => "Invalid searchRestaurants API response structure."]);
-            log_error("Invalid searchRestaurants API response structure.");
-            exit;
-        }
-
-        // Get the database connection
-        $db = getDB();
-
-        // Prepare the SQL statement
-        $stmt = $db->prepare("INSERT INTO restaurantDetails (locationId, name, averageRating, userReviewCount, currentOpenStatusCategory, currentOpenStatusText, establishmentTypeAndCuisineTags, priceTag, heroImgUrl, reviewSnippets) VALUES (:locationId, :name, :averageRating, :userReviewCount, :currentOpenStatusCategory, :currentOpenStatusText, :establishmentTypeAndCuisineTags, :priceTag, :heroImgUrl, :reviewSnippets) ON DUPLICATE KEY UPDATE name = VALUES(name), averageRating = VALUES(averageRating), userReviewCount = VALUES(userReviewCount), currentOpenStatusCategory = VALUES(currentOpenStatusCategory), currentOpenStatusText = VALUES(currentOpenStatusText), establishmentTypeAndCuisineTags = VALUES(establishmentTypeAndCuisineTags), priceTag = VALUES(priceTag), heroImgUrl = VALUES(heroImgUrl), reviewSnippets = VALUES(reviewSnippets)");
-
-        // Process and store restaurant data
-        foreach ($restaurantData['data'] as $restaurant) {
-            // Extract relevant restaurant information
-            $locationId = $restaurant['locationId'] ?? '';
-            $name = $restaurant['name'] ?? '';
-            $averageRating = $restaurant['averageRating'] ?? 0;
-            $userReviewCount = $restaurant['userReviewCount'] ?? 0;
-            $currentOpenStatusCategory = $restaurant['currentOpenStatusCategory'] ?? '';
-            $currentOpenStatusText = $restaurant['currentOpenStatusText'] ?? '';
-            $establishmentTypeAndCuisineTags = json_encode($restaurant['establishmentTypeAndCuisineTags'] ?? []);
-            $priceTag = $restaurant['priceTag'] ?? '';
-            $heroImgUrl = $restaurant['heroImgUrl'] ?? '';
-            $reviewSnippets = json_encode($restaurant['reviewSnippets']['reviewSnippetsList'] ?? []);
-
-            // Execute the SQL statement
-            try {
-                $stmt->execute([
-                    ':locationId' => (string)$locationId,
-                    ':name' => (string)$name,
-                    ':averageRating' => $averageRating,
-                    ':userReviewCount' => $userReviewCount,
-                    ':currentOpenStatusCategory' => (string)$currentOpenStatusCategory,
-                    ':currentOpenStatusText' => (string)$currentOpenStatusText,
-                    ':establishmentTypeAndCuisineTags' => $establishmentTypeAndCuisineTags,
-                    ':priceTag' => (string)$priceTag,
-                    ':heroImgUrl' => (string)$heroImgUrl,
-                    ':reviewSnippets' => $reviewSnippets
-                ]);
-                log_error("Restaurant data cached successfully: " . $locationId);
-            } catch (Exception $e) {
-                log_error("Failed to cache restaurant data for ID: " . $locationId . " Error: " . $e->getMessage());
-            }
-        }
-
-        // Return the stored restaurant data
-        $stmt = $db->prepare("SELECT * FROM restaurantDetails WHERE locationId = :locationId");
-        $stmt->bindParam(':locationId', $locationId);
-        $stmt->execute();
-        $restaurants = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        echo json_encode($restaurants);
+        logMessage("Fetched location data: " . $response);
+        return json_decode($response, true);
     }
+}
+
+function storeRestaurantLocation($db, $locationData) {
+    if (!isset($locationData['data']) || empty($locationData['data'])) {
+        logMessage("No location data found.");
+        return ["error" => "No location data found."];
+    }
+
+    $stmt = $db->prepare("
+        INSERT INTO RestaurantLocationDetails (location_id, document_id, property_id, localized_name, long_hierarchy, street1, place_type, latitude, longitude, thumbnail_url)
+        VALUES (:location_id, :document_id, :property_id, :localized_name, :long_hierarchy, :street1, :place_type, :latitude, :longitude, :thumbnail_url)
+        ON DUPLICATE KEY UPDATE 
+            document_id = VALUES(document_id),
+            property_id = VALUES(property_id),
+            localized_name = VALUES(localized_name),
+            long_hierarchy = VALUES(long_hierarchy),
+            street1 = VALUES(street1),
+            place_type = VALUES(place_type),
+            latitude = VALUES(latitude),
+            longitude = VALUES(longitude),
+            thumbnail_url = VALUES(thumbnail_url)
+    ");
+
+    foreach ($locationData['data'] as $location) {
+        try {
+            $stmt->execute([
+                ':location_id' => $location['locationId'] ?? 0,
+                ':document_id' => $location['documentId'] ?? '',
+                ':property_id' => $location['propertyId'] ?? 0,
+                ':localized_name' => $location['localizedName'] ?? '',
+                ':long_hierarchy' => $location['localizedAdditionalNames']['longOnlyHierarchy'] ?? '',
+                ':street1' => $location['streetAddress']['street1'] ?? '',
+                ':place_type' => $location['locationV2']['placeType'] ?? '',
+                ':latitude' => $location['latitude'] ?? 0,
+                ':longitude' => $location['longitude'] ?? 0,
+                ':thumbnail_url' => isset($location['thumbnail']['photoSizeDynamic']['urlTemplate']) 
+                    ? str_replace(['{width}', '{height}'], [200, 200], $location['thumbnail']['photoSizeDynamic']['urlTemplate']) 
+                    : ''
+            ]);
+            logMessage("Stored location data: " . json_encode($location));
+        } catch (PDOException $e) {
+            logMessage("Error storing location data: " . $e->getMessage());
+        }
+    }
+}
+
+if (isset($_GET['query']) && !empty($_GET['query'])) {
+    $query = $_GET['query'];
+    logMessage("Starting process for query: $query");
+
+    $db = getDB(); // Assume you have a function to get the PDO database connection
+    $locationData = fetchRestaurantLocation($query);
+    logMessage("Location data fetched: " . json_encode($locationData));
+
+    if (!isset($locationData['error'])) {
+        $result = storeRestaurantLocation($db, $locationData);
+
+        if (isset($result['error'])) {
+            logMessage($result['error']);
+            echo $result['error'];
+        } else {
+            logMessage("Location data stored successfully.");
+            echo "Location data stored successfully.";
+        }
+    } else {
+        logMessage("Error fetching location: " . $locationData['error']);
+        echo $locationData['error'];
+    }
+} else {
+    logMessage("Query parameter 'query' is required and cannot be empty.");
+    echo "Query parameter 'query' is required and cannot be empty.";
 }
 ?>

@@ -96,3 +96,17 @@ CREATE TABLE Comments (
     FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE,
     FOREIGN KEY (journal_id) REFERENCES Journals(id) ON DELETE CASCADE
 );
+
+CREATE TABLE RestaurantLocationDetails (
+    location_id INT PRIMARY KEY,
+    document_id VARCHAR(255),
+    property_id INT,
+    localized_name VARCHAR(255),
+    long_hierarchy VARCHAR(255),
+    street1 VARCHAR(255),
+    place_type VARCHAR(50),
+    latitude DECIMAL(9,6),
+    longitude DECIMAL(9,6),
+    thumbnail_url VARCHAR(255)
+);
+

@@ -78,16 +78,16 @@ $stmt->execute();
 $airports = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<div class="container-fluid">
+<div class="container mt-5">
     <h1>Edit Journal</h1>
     <form method="POST">
-        <div>
-            <label>Journal Name</label>
-            <input type="text" name="name" value="<?php echo htmlspecialchars($journal['name']); ?>" required />
+        <div class="mb-3">
+            <label for="name" class="form-label">Journal Name</label>
+            <input type="text" class="form-control" id="name" name="name" value="<?php echo htmlspecialchars($journal['name']); ?>" required>
         </div>
-        <div>
-            <label>From Location</label>
-            <select id="from_airport_dropdown" name="from_airport_code" onchange="setFromAirportCode()">
+        <div class="mb-3">
+            <label for="from_airport_dropdown" class="form-label">From Location</label>
+            <select class="form-select" id="from_airport_dropdown" name="from_airport_code" onchange="setFromAirportCode()">
                 <option value="">Select from existing airports</option>
                 <?php foreach ($airports as $airport): ?>
                     <option value="<?php echo $airport['code']; ?>" <?php if ($journal['from_airport_code'] == $airport['code']) echo 'selected'; ?>>
@@ -95,14 +95,14 @@ $airports = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     </option>
                 <?php endforeach; ?>
             </select>
-            <input type="text" id="from_location" name="from_location" placeholder="Or type location..." />
-            <button type="button" onclick="fetchFromAirports()">Fetch Airports</button>
-            <input type="hidden" id="from_airport_code" name="from_airport_code" value="<?php echo htmlspecialchars($journal['from_airport_code']); ?>" />
+            <input type="text" class="form-control mt-2" id="from_location" name="from_location" placeholder="Or type location...">
+            <button type="button" class="btn btn-primary mt-2" onclick="fetchFromAirports()">Fetch Airports</button>
+            <input type="hidden" id="from_airport_code" name="from_airport_code" value="<?php echo htmlspecialchars($journal['from_airport_code']); ?>">
             <div id="from_airport_list"></div>
         </div>
-        <div>
-            <label>To Location</label>
-            <select id="to_airport_dropdown" name="to_airport_code" onchange="setToAirportCode()">
+        <div class="mb-3">
+            <label for="to_airport_dropdown" class="form-label">To Location</label>
+            <select class="form-select" id="to_airport_dropdown" name="to_airport_code" onchange="setToAirportCode()">
                 <option value="">Select from existing airports</option>
                 <?php foreach ($airports as $airport): ?>
                     <option value="<?php echo $airport['code']; ?>" <?php if ($journal['to_airport_code'] == $airport['code']) echo 'selected'; ?>>
@@ -110,26 +110,30 @@ $airports = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     </option>
                 <?php endforeach; ?>
             </select>
-            <input type="text" id="to_location" name="to_location" placeholder="Or type location..." />
-            <button type="button" onclick="fetchToAirports()">Fetch Airports</button>
-            <input type="hidden" id="to_airport_code" name="to_airport_code" value="<?php echo htmlspecialchars($journal['to_airport_code']); ?>" />
+            <input type="text" class="form-control mt-2" id="to_location" name="to_location" placeholder="Or type location...">
+            <button type="button" class="btn btn-primary mt-2" onclick="fetchToAirports()">Fetch Airports</button>
+            <input type="hidden" id="to_airport_code" name="to_airport_code" value="<?php echo htmlspecialchars($journal['to_airport_code']); ?>">
             <div id="to_airport_list"></div>
         </div>
-        <div>
-            <label>Trip Dates</label>
-            <input type="date" name="trip_start_date" value="<?php echo htmlspecialchars($journal['trip_start_date']); ?>" required />
-            <input type="date" name="trip_end_date" value="<?php echo htmlspecialchars($journal['trip_end_date']); ?>" required />
+        <div class="mb-3">
+            <label for="trip_start_date" class="form-label">Trip Start Date</label>
+            <input type="date" class="form-control" id="trip_start_date" name="trip_start_date" value="<?php echo htmlspecialchars($journal['trip_start_date']); ?>" required>
         </div>
-        <div>
-            <label>Content</label>
-            <textarea name="content" required><?php echo htmlspecialchars($journal['content']); ?></textarea>
+        <div class="mb-3">
+            <label for="trip_end_date" class="form-label">Trip End Date</label>
+            <input type="date" class="form-control" id="trip_end_date" name="trip_end_date" value="<?php echo htmlspecialchars($journal['trip_end_date']); ?>" required>
         </div>
-        <div>
-            <label>Photos</label>
-            <input type="text" name="photos" value="<?php echo htmlspecialchars($journal['photos']); ?>" placeholder="Enter photo URLs separated by commas" />
+        <div class="mb-3">
+            <label for="content" class="form-label">Content</label>
+            <textarea class="form-control" id="content" name="content" rows="4" required><?php echo htmlspecialchars($journal['content']); ?></textarea>
         </div>
-        <div>
-            <input type="submit" value="Update Journal" />
+        <div class="mb-3">
+            <label for="photos" class="form-label">Photos</label>
+            <input type="text" class="form-control" id="photos" name="photos" value="<?php echo htmlspecialchars($journal['photos']); ?>" placeholder="Enter photo URLs separated by commas">
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <button type="submit" class="btn btn-success">Update Journal</button>
+            <a href="addJournalDetails.php?journal_id=<?php echo $journal_id; ?>" class="btn btn-primary">Add Journal Details</a>
         </div>
     </form>
 </div>

@@ -5,7 +5,7 @@ $db = getDB();
 $user_id = get_user_id();
 
 // Fetch all journals
-$stmt = $db->prepare("SELECT Journals.*, Users.username FROM Journals JOIN Users ON Journals.user_id = Users.id");
+$stmt = $db->prepare("SELECT Journals.*, Users.username, Users.profile_pic FROM Journals JOIN Users ON Journals.user_id = Users.id");
 $stmt->execute();
 $journals = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -24,7 +24,7 @@ $following = $follow_stmt->fetchAll(PDO::FETCH_COLUMN);
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-header d-flex align-items-center">
-                        <img src="path/to/profile-pic.jpg" alt="Profile Picture" class="rounded-circle me-2" style="width: 40px; height: 40px;">
+                        <img src="<?php echo htmlspecialchars($journal['profile_pic'] ?: '/../mainpages/uploads/a348574239c899a8509210c2304c2ba5.jpg'); ?>" alt="Profile Picture" class="rounded-circle me-2" style="width: 40px; height: 40px;">
                         <strong><?php echo htmlspecialchars($journal['username']); ?></strong>
                     </div>
                     <div class="card-body">
@@ -163,3 +163,4 @@ document.addEventListener('DOMContentLoaded', function() {
 <?php
 require(__DIR__ . "/../../../partials/flash.php");
 ?>
+    
